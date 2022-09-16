@@ -1,0 +1,4 @@
+__pycache__
+
+.commit_hash
+flask_monitoringdashboard.db

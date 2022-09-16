@@ -1,0 +1,33 @@
+{
+    "name": "example",
+    "version": "v2",
+    "nodes": [
+        {
+            "id": "ABC",
+            "name": "ABC is a top-level item of the tree",
+            "parent_id": ""
+        },
+        {
+            "id": "BCD",
+            "name": "BCD is a child of ABC",
+            "parent_id": "ABC",
+            "metadata": {
+                "description": "We can add arbitrary metadata to nodes"
+            }
+        },
+        {
+            "id": "EFG",
+            "name": "EFG is a child of BCD",
+            "parent_id": "BCD"
+        },
+        {
+            "id": "FGH",
+            "name": "FGH is a child of BCD",
+            "parent_id": "BCD"
+        },
+        {
+            "id": "CDE",
+            "name": "CDE is another top-level item of the tree"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+flask-cors = "*"
+flask-json = "*"
+pandas = "*"
+python-levenshtein = "*"
+spacy = "*"
+pytest = "*"
+"en-core-web-md" = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.0.0/en_core_web_md-3.0.0.tar.gz"}
+boto3 = "*"
+jsonschema = "*"
+flask-monitoringdashboard = "*"
+
+[dev-packages]
+black = "*"
+ipykernel = "*"
+ipython = "*"
+mypy = "*"
+pycodestyle = "*"
+
+[requires]
+python_version = "3.9.7"
+
+[pipenv]
+allow_prereleases = true

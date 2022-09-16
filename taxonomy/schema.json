@@ -1,0 +1,49 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "http://normative.io/taxonomy/schema.json",
+    "title": "Taxonomy",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Unique id for the taxonomy."
+        },
+        "version": {
+            "type": "string",
+            "description": "A named instance of this taxonomy."
+        },
+        "nodes": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "description": "Unique id of the node."
+                    },
+                    "name": {
+                        "type": "string",
+                        "description": "Human-readable name of the node."
+                    },
+                    "parent_id": {
+                        "type": "string",
+                        "description": "The parent id of the node."
+                    },
+                    "metadata": {
+                        "type": "object",
+                        "description": "Additional information about the node."
+                    }
+                },
+                "required": [
+                    "id",
+                    "name"
+                ]
+            }
+        }
+    },
+    "required": [
+        "name",
+        "version",
+        "nodes"
+    ]
+}

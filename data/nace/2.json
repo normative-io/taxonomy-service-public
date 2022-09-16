@@ -1,0 +1,5806 @@
+{
+  "name": "nace",
+  "version": "2",
+  "nodes": [
+    {
+      "id": "A",
+      "name": "A. AGRICULTURE, FORESTRY AND FISHING"
+    },
+    {
+      "id": "B",
+      "name": "B. MINING AND QUARRYING"
+    },
+    {
+      "id": "C",
+      "name": "C. MANUFACTURING"
+    },
+    {
+      "id": "D",
+      "name": "D. ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY"
+    },
+    {
+      "id": "E",
+      "name": "E. WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES"
+    },
+    {
+      "id": "F",
+      "name": "F. CONSTRUCTION"
+    },
+    {
+      "id": "G",
+      "name": "G. WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES"
+    },
+    {
+      "id": "H",
+      "name": "H. TRANSPORTATION AND STORAGE"
+    },
+    {
+      "id": "I",
+      "name": "I. ACCOMMODATION AND FOOD SERVICE ACTIVITIES"
+    },
+    {
+      "id": "J",
+      "name": "J. INFORMATION AND COMMUNICATION"
+    },
+    {
+      "id": "K",
+      "name": "K. FINANCIAL AND INSURANCE ACTIVITIES"
+    },
+    {
+      "id": "L",
+      "name": "L. REAL ESTATE ACTIVITIES"
+    },
+    {
+      "id": "N",
+      "name": "N. ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES"
+    },
+    {
+      "id": "O",
+      "name": "O. PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY"
+    },
+    {
+      "id": "P",
+      "name": "P. EDUCATION"
+    },
+    {
+      "id": "Q",
+      "name": "Q. HUMAN HEALTH AND SOCIAL WORK ACTIVITIES"
+    },
+    {
+      "id": "R",
+      "name": "R. ARTS, ENTERTAINMENT AND RECREATION"
+    },
+    {
+      "id": "S",
+      "name": "S. OTHER SERVICE ACTIVITIES"
+    },
+    {
+      "id": "T",
+      "name": "T. ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS- AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"
+    },
+    {
+      "id": "U",
+      "name": "U. ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"
+    },
+    {
+      "id": "01.00",
+      "name": "Crop and animal production, hunting and related service activities",
+      "parent_id": "A"
+    },
+    {
+      "id": "02.00",
+      "name": "Forestry and logging",
+      "parent_id": "A"
+    },
+    {
+      "id": "03.00",
+      "name": "Fishing and aquaculture",
+      "parent_id": "A"
+    },
+    {
+      "id": "05.00",
+      "name": "Mining of coal and lignite",
+      "parent_id": "B"
+    },
+    {
+      "id": "06.00",
+      "name": "Extraction of crude petroleum and natural gas",
+      "parent_id": "B"
+    },
+    {
+      "id": "07.00",
+      "name": "Mining of metal ores",
+      "parent_id": "B"
+    },
+    {
+      "id": "08.00",
+      "name": "Other mining and quarrying",
+      "parent_id": "B"
+    },
+    {
+      "id": "09.00",
+      "name": "Mining support service activities",
+      "parent_id": "B"
+    },
+    {
+      "id": "10.00",
+      "name": "C. 10",
+      "parent_id": "C"
+    },
+    {
+      "id": "11.00",
+      "name": "Manufacture of beverages",
+      "parent_id": "C"
+    },
+    {
+      "id": "12.00",
+      "name": "Manufacture of tobacco products",
+      "parent_id": "C"
+    },
+    {
+      "id": "13.00",
+      "name": "C. 13",
+      "parent_id": "C"
+    },
+    {
+      "id": "14.00",
+      "name": "Manufacture of wearing apparel",
+      "parent_id": "C"
+    },
+    {
+      "id": "15.00",
+      "name": "Manufacture of leather and related products",
+      "parent_id": "C"
+    },
+    {
+      "id": "16.00",
+      "name": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+      "parent_id": "C"
+    },
+    {
+      "id": "17.00",
+      "name": "Manufacture of paper and paper products",
+      "parent_id": "C"
+    },
+    {
+      "id": "18.00",
+      "name": "Printing and reproduction of recorded media",
+      "parent_id": "C"
+    },
+    {
+      "id": "19.00",
+      "name": "Manufacture of coke and refined petroleum products",
+      "parent_id": "C"
+    },
+    {
+      "id": "20.00",
+      "name": "C. 20",
+      "parent_id": "C"
+    },
+    {
+      "id": "21.00",
+      "name": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+      "parent_id": "C"
+    },
+    {
+      "id": "22.00",
+      "name": "Manufacture of rubber and plastic products",
+      "parent_id": "C"
+    },
+    {
+      "id": "23.00",
+      "name": "Manufacture of other non-metallic mineral products",
+      "parent_id": "C"
+    },
+    {
+      "id": "24.00",
+      "name": "Manufacture of basic metals",
+      "parent_id": "C"
+    },
+    {
+      "id": "25.00",
+      "name": "C. 25",
+      "parent_id": "C"
+    },
+    {
+      "id": "26.00",
+      "name": "C. 26",
+      "parent_id": "C"
+    },
+    {
+      "id": "27.00",
+      "name": "C. 27",
+      "parent_id": "C"
+    },
+    {
+      "id": "28.00",
+      "name": "Manufacture of machinery and equipment n.e.c.",
+      "parent_id": "C"
+    },
+    {
+      "id": "29.00",
+      "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+      "parent_id": "C"
+    },
+    {
+      "id": "30.00",
+      "name": "C. 30",
+      "parent_id": "C"
+    },
+    {
+      "id": "31.00",
+      "name": "Manufacture of furniture",
+      "parent_id": "C"
+    },
+    {
+      "id": "32.00",
+      "name": "C. 32",
+      "parent_id": "C"
+    },
+    {
+      "id": "33.00",
+      "name": "Repair and installation of machinery and equipment",
+      "parent_id": "C"
+    },
+    {
+      "id": "35.00",
+      "name": "D. 35",
+      "parent_id": "D"
+    },
+    {
+      "id": "36.00",
+      "name": "Water collection, treatment and supply",
+      "parent_id": "E"
+    },
+    {
+      "id": "37.00",
+      "name": "Sewerage",
+      "parent_id": "E"
+    },
+    {
+      "id": "38.00",
+      "name": "Waste collection, treatment and disposal activities; materials recovery",
+      "parent_id": "E"
+    },
+    {
+      "id": "39.00",
+      "name": "Remediation activities and other waste management services",
+      "parent_id": "E"
+    },
+    {
+      "id": "41.00",
+      "name": "Construction of buildings",
+      "parent_id": "F"
+    },
+    {
+      "id": "42.00",
+      "name": "Civil engineering",
+      "parent_id": "F"
+    },
+    {
+      "id": "43.00",
+      "name": "Specialised construction activities",
+      "parent_id": "F"
+    },
+    {
+      "id": "45.00",
+      "name": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+      "parent_id": "G"
+    },
+    {
+      "id": "46.00",
+      "name": "G. 46",
+      "parent_id": "G"
+    },
+    {
+      "id": "47.00",
+      "name": "G. 47",
+      "parent_id": "G"
+    },
+    {
+      "id": "49.00",
+      "name": "H. 49",
+      "parent_id": "H"
+    },
+    {
+      "id": "50.00",
+      "name": "H. 50",
+      "parent_id": "H"
+    },
+    {
+      "id": "51.00",
+      "name": "H. 51",
+      "parent_id": "H"
+    },
+    {
+      "id": "52.00",
+      "name": "H. 52",
+      "parent_id": "H"
+    },
+    {
+      "id": "53.00",
+      "name": "Postal and courier activities",
+      "parent_id": "H"
+    },
+    {
+      "id": "55.00",
+      "name": "Accommodation",
+      "parent_id": "I"
+    },
+    {
+      "id": "56.00",
+      "name": "Food and beverage service activities",
+      "parent_id": "I"
+    },
+    {
+      "id": "58.00",
+      "name": "Publishing activities",
+      "parent_id": "J"
+    },
+    {
+      "id": "59.00",
+      "name": "Motion picture, video and television programme production, sound recording and music publishing activities",
+      "parent_id": "J"
+    },
+    {
+      "id": "60.00",
+      "name": "Programming and broadcasting activities",
+      "parent_id": "J"
+    },
+    {
+      "id": "61.00",
+      "name": "Telecommunications",
+      "parent_id": "J"
+    },
+    {
+      "id": "62.00",
+      "name": "Computer programming, consultancy and related activities",
+      "parent_id": "J"
+    },
+    {
+      "id": "63.00",
+      "name": "Information service activities",
+      "parent_id": "J"
+    },
+    {
+      "id": "64.00",
+      "name": "Financial service activities, except insurance and pension funding",
+      "parent_id": "K"
+    },
+    {
+      "id": "65.00",
+      "name": "Insurance, reinsurance and pension funding, except compulsory social security",
+      "parent_id": "K"
+    },
+    {
+      "id": "66.00",
+      "name": "Activities auxiliary to financial services and insurance activities",
+      "parent_id": "K"
+    },
+    {
+      "id": "68.00",
+      "name": "Real estate activities",
+      "parent_id": "L"
+    },
+    {
+      "id": "69.00",
+      "name": "Legal and accounting activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "70.00",
+      "name": "Activities of head offices; management consultancy activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "71.00",
+      "name": "Architectural and engineering activities; technical testing and analysis",
+      "parent_id": "N"
+    },
+    {
+      "id": "72.00",
+      "name": "Scientific research and development",
+      "parent_id": "N"
+    },
+    {
+      "id": "73.00",
+      "name": "Advertising and market research",
+      "parent_id": "N"
+    },
+    {
+      "id": "74.00",
+      "name": "Other professional, scientific and technical activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "75.00",
+      "name": "Veterinary activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "77.00",
+      "name": "N. 77",
+      "parent_id": "N"
+    },
+    {
+      "id": "78.00",
+      "name": "Employment activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "79.00",
+      "name": "Travel agency, tour operator and other reservation service and related activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "80.00",
+      "name": "Security and investigation activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "81.00",
+      "name": "Services to buildings and landscape activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "82.00",
+      "name": "Office administrative, office support and other business support activities",
+      "parent_id": "N"
+    },
+    {
+      "id": "84.00",
+      "name": "Public administration and defence; compulsory social security",
+      "parent_id": "O"
+    },
+    {
+      "id": "85.00",
+      "name": "Education",
+      "parent_id": "P"
+    },
+    {
+      "id": "86.00",
+      "name": "Human health activities",
+      "parent_id": "Q"
+    },
+    {
+      "id": "87.00",
+      "name": "Residential care activities",
+      "parent_id": "Q"
+    },
+    {
+      "id": "88.00",
+      "name": "Social work activities without accommodation",
+      "parent_id": "Q"
+    },
+    {
+      "id": "90.00",
+      "name": "Creative, arts and entertainment activities",
+      "parent_id": "R"
+    },
+    {
+      "id": "91.00",
+      "name": "Libraries, archives, museums and other cultural activities",
+      "parent_id": "R"
+    },
+    {
+      "id": "92.00",
+      "name": "Gambling and betting activities",
+      "parent_id": "R"
+    },
+    {
+      "id": "93.00",
+      "name": "Sports activities and amusement and recreation activities",
+      "parent_id": "R"
+    },
+    {
+      "id": "94.00",
+      "name": "Activities of membership organisations",
+      "parent_id": "S"
+    },
+    {
+      "id": "95.00",
+      "name": "Repair of computers and personal and household goods",
+      "parent_id": "S"
+    },
+    {
+      "id": "96.00",
+      "name": "Other personal service activities",
+      "parent_id": "S"
+    },
+    {
+      "id": "97.00",
+      "name": "Activities of households as employers of domestic personnel",
+      "parent_id": "T"
+    },
+    {
+      "id": "98.00",
+      "name": "T. 98",
+      "parent_id": "T"
+    },
+    {
+      "id": "99.00",
+      "name": "Activities of extraterritorial organisations and bodies",
+      "parent_id": "U"
+    },
+    {
+      "id": "01.10",
+      "name": "Growing of non-perennial crops",
+      "parent_id": "01.00"
+    },
+    {
+      "id": "01.20",
+      "name": "Growing of perennial crops",
+      "parent_id": "01.00"
+    },
+    {
+      "id": "01.30",
+      "name": "Plant propagation",
+      "parent_id": "01.00"
+    },
+    {
+      "id": "01.40",
+      "name": "Animal production",
+      "parent_id": "01.00"
+    },
+    {
+      "id": "01.50",
+      "name": "Mixed farming",
+      "parent_id": "01.00"
+    },
+    {
+      "id": "01.60",
+      "name": "Support activities to agriculture and post-harvest crop activities",
+      "parent_id": "01.00"
+    },
+    {
+      "id": "01.70",
+      "name": "Hunting, trapping and related service activities",
+      "parent_id": "01.00"
+    },
+    {
+      "id": "02.10",
+      "name": "Silviculture and other forestry activities",
+      "parent_id": "02.00"
+    },
+    {
+      "id": "02.20",
+      "name": "Logging",
+      "parent_id": "02.00"
+    },
+    {
+      "id": "02.30",
+      "name": "Gathering of wild growing non-wood products",
+      "parent_id": "02.00"
+    },
+    {
+      "id": "02.40",
+      "name": "Support services to forestry",
+      "parent_id": "02.00"
+    },
+    {
+      "id": "03.10",
+      "name": "Fishing",
+      "parent_id": "03.00"
+    },
+    {
+      "id": "03.20",
+      "name": "Aquaculture",
+      "parent_id": "03.00"
+    },
+    {
+      "id": "05.10",
+      "name": "Mining of hard coal",
+      "parent_id": "05.00"
+    },
+    {
+      "id": "05.20",
+      "name": "Mining of lignite",
+      "parent_id": "05.00"
+    },
+    {
+      "id": "06.10",
+      "name": "Extraction of crude petroleum",
+      "parent_id": "06.00"
+    },
+    {
+      "id": "06.20",
+      "name": "Extraction of natural gas",
+      "parent_id": "06.00"
+    },
+    {
+      "id": "07.10",
+      "name": "Mining of iron ores",
+      "parent_id": "07.00"
+    },
+    {
+      "id": "07.20",
+      "name": "Mining of non-ferrous metal ores",
+      "parent_id": "07.00"
+    },
+    {
+      "id": "08.10",
+      "name": "Quarrying of stone, sand and clay",
+      "parent_id": "08.00"
+    },
+    {
+      "id": "08.90",
+      "name": "Mining and quarrying n.e.c.",
+      "parent_id": "08.00"
+    },
+    {
+      "id": "09.10",
+      "name": "Support activities for petroleum and natural gas extraction",
+      "parent_id": "09.00"
+    },
+    {
+      "id": "09.90",
+      "name": "Support activities for other mining and quarrying",
+      "parent_id": "09.00"
+    },
+    {
+      "id": "10.10",
+      "name": "Processing and preserving of meat and production of meat products",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.20",
+      "name": "Processing and preserving of fish, crustaceans and molluscs",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.30",
+      "name": "Processing and preserving of fruit and vegetables",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.40",
+      "name": "Manufacture of vegetable and animal oils and fats",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.50",
+      "name": "Manufacture of dairy products",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.60",
+      "name": "Manufacture of grain mill products, starches and starch products",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.70",
+      "name": "Manufacture of bakery and farinaceous products",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.80",
+      "name": "Manufacture of other food products",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "10.90",
+      "name": "Manufacture of prepared animal feeds",
+      "parent_id": "10.00"
+    },
+    {
+      "id": "11.10",
+      "name": "Distilling, rectifying and blending of spirits",
+      "parent_id": "11.00"
+    },
+    {
+      "id": "11.20",
+      "name": "Manufacture of wine from grape",
+      "parent_id": "11.00"
+    },
+    {
+      "id": "11.30",
+      "name": "Manufacture of cider and other fruit wines",
+      "parent_id": "11.00"
+    },
+    {
+      "id": "11.40",
+      "name": "Manufacture of other non-distilled fermented beverages",
+      "parent_id": "11.00"
+    },
+    {
+      "id": "11.50",
+      "name": "Manufacture of beer",
+      "parent_id": "11.00"
+    },
+    {
+      "id": "11.60",
+      "name": "Manufacture of malt",
+      "parent_id": "11.00"
+    },
+    {
+      "id": "11.70",
+      "name": "Manufacture of soft drinks; production of mineral waters and other bottled waters",
+      "parent_id": "11.00"
+    },
+    {
+      "id": "13.10",
+      "name": "Preparation and spinning of textile fibres",
+      "parent_id": "13.00"
+    },
+    {
+      "id": "13.20",
+      "name": "Weaving of textiles",
+      "parent_id": "13.00"
+    },
+    {
+      "id": "13.30",
+      "name": "Finishing of textiles",
+      "parent_id": "13.00"
+    },
+    {
+      "id": "13.90",
+      "name": "Manufacture of other textiles",
+      "parent_id": "13.00"
+    },
+    {
+      "id": "14.10",
+      "name": "Manufacture of wearing apparel, except fur apparel",
+      "parent_id": "14.00"
+    },
+    {
+      "id": "14.20",
+      "name": "Manufacture of articles of fur",
+      "parent_id": "14.00"
+    },
+    {
+      "id": "14.30",
+      "name": "Manufacture of knitted and crocheted apparel",
+      "parent_id": "14.00"
+    },
+    {
+      "id": "15.10",
+      "name": "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur",
+      "parent_id": "15.00"
+    },
+    {
+      "id": "15.20",
+      "name": "Manufacture of footwear",
+      "parent_id": "15.00"
+    },
+    {
+      "id": "16.10",
+      "name": "Sawmilling and planing of wood",
+      "parent_id": "16.00"
+    },
+    {
+      "id": "16.20",
+      "name": "Manufacture of products of wood, cork, straw and plaiting materials",
+      "parent_id": "16.00"
+    },
+    {
+      "id": "17.10",
+      "name": "Manufacture of pulp, paper and paperboard",
+      "parent_id": "17.00"
+    },
+    {
+      "id": "17.20",
+      "name": "Manufacture of articles of paper and paperboard",
+      "parent_id": "17.00"
+    },
+    {
+      "id": "18.10",
+      "name": "Printing and service activities related to printing",
+      "parent_id": "18.00"
+    },
+    {
+      "id": "18.20",
+      "name": "Reproduction of recorded media",
+      "parent_id": "18.00"
+    },
+    {
+      "id": "19.10",
+      "name": "Manufacture of coke oven products",
+      "parent_id": "19.00"
+    },
+    {
+      "id": "19.20",
+      "name": "Manufacture of refined petroleum products",
+      "parent_id": "19.00"
+    },
+    {
+      "id": "20.10",
+      "name": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",
+      "parent_id": "20.00"
+    },
+    {
+      "id": "20.20",
+      "name": "Manufacture of pesticides and other agrochemical products",
+      "parent_id": "20.00"
+    },
+    {
+      "id": "20.30",
+      "name": "Manufacture of paints, varnishes and similar coatings, printing ink and mastics",
+      "parent_id": "20.00"
+    },
+    {
+      "id": "20.40",
+      "name": "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",
+      "parent_id": "20.00"
+    },
+    {
+      "id": "20.50",
+      "name": "Manufacture of other chemical products",
+      "parent_id": "20.00"
+    },
+    {
+      "id": "20.60",
+      "name": "Manufacture of man-made fibres",
+      "parent_id": "20.00"
+    },
+    {
+      "id": "21.10",
+      "name": "Manufacture of basic pharmaceutical products",
+      "parent_id": "21.00"
+    },
+    {
+      "id": "21.20",
+      "name": "Manufacture of pharmaceutical preparations",
+      "parent_id": "21.00"
+    },
+    {
+      "id": "22.10",
+      "name": "Manufacture of rubber products",
+      "parent_id": "22.00"
+    },
+    {
+      "id": "22.20",
+      "name": "Manufacture of plastics products",
+      "parent_id": "22.00"
+    },
+    {
+      "id": "23.10",
+      "name": "Manufacture of glass and glass products",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "23.20",
+      "name": "Manufacture of refractory products",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "23.30",
+      "name": "Manufacture of clay building materials",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "23.40",
+      "name": "Manufacture of other porcelain and ceramic products",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "23.50",
+      "name": "Manufacture of cement, lime and plaster",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "23.60",
+      "name": "Manufacture of articles of concrete, cement and plaster",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "23.70",
+      "name": "Cutting, shaping and finishing of stone",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "23.90",
+      "name": "Manufacture of abrasive products and non-metallic mineral products n.e.c.",
+      "parent_id": "23.00"
+    },
+    {
+      "id": "24.10",
+      "name": "Manufacture of basic iron and steel and of ferro-alloys",
+      "parent_id": "24.00"
+    },
+    {
+      "id": "24.20",
+      "name": "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",
+      "parent_id": "24.00"
+    },
+    {
+      "id": "24.30",
+      "name": "Manufacture of other products of first processing of steel",
+      "parent_id": "24.00"
+    },
+    {
+      "id": "24.40",
+      "name": "Manufacture of basic precious and other non-ferrous metals",
+      "parent_id": "24.00"
+    },
+    {
+      "id": "24.50",
+      "name": "Casting of metals",
+      "parent_id": "24.00"
+    },
+    {
+      "id": "25.10",
+      "name": "Manufacture of structural metal products",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "25.20",
+      "name": "Manufacture of tanks, reservoirs and containers of metal",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "25.30",
+      "name": "Manufacture of steam generators, except central heating hot water boilers",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "25.40",
+      "name": "Manufacture of weapons and ammunition",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "25.50",
+      "name": "Forging, pressing, stamping and roll-forming of metal; powder metallurgy",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "25.60",
+      "name": "Treatment and coating of metals; machining",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "25.70",
+      "name": "Manufacture of cutlery, tools and general hardware",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "25.90",
+      "name": "Manufacture of other fabricated metal products",
+      "parent_id": "25.00"
+    },
+    {
+      "id": "26.10",
+      "name": "Manufacture of electronic components and boards",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "26.20",
+      "name": "Manufacture of computers and peripheral equipment",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "26.30",
+      "name": "Manufacture of communication equipment",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "26.40",
+      "name": "Manufacture of consumer electronics",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "26.50",
+      "name": "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "26.60",
+      "name": "Manufacture of irradiation, electromedical and electrotherapeutic equipment",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "26.70",
+      "name": "Manufacture of optical instruments and photographic equipment",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "26.80",
+      "name": "Manufacture of magnetic and optical media",
+      "parent_id": "26.00"
+    },
+    {
+      "id": "27.10",
+      "name": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+      "parent_id": "27.00"
+    },
+    {
+      "id": "27.20",
+      "name": "Manufacture of batteries and accumulators",
+      "parent_id": "27.00"
+    },
+    {
+      "id": "27.30",
+      "name": "Manufacture of wiring and wiring devices",
+      "parent_id": "27.00"
+    },
+    {
+      "id": "27.40",
+      "name": "Manufacture of electric lighting equipment",
+      "parent_id": "27.00"
+    },
+    {
+      "id": "27.50",
+      "name": "Manufacture of domestic appliances",
+      "parent_id": "27.00"
+    },
+    {
+      "id": "27.90",
+      "name": "Manufacture of other electrical equipment",
+      "parent_id": "27.00"
+    },
+    {
+      "id": "28.10",
+      "name": "Manufacture of general-purpose machinery",
+      "parent_id": "28.00"
+    },
+    {
+      "id": "28.20",
+      "name": "Manufacture of other general-purpose machinery",
+      "parent_id": "28.00"
+    },
+    {
+      "id": "28.30",
+      "name": "Manufacture of agricultural and forestry machinery",
+      "parent_id": "28.00"
+    },
+    {
+      "id": "28.40",
+      "name": "Manufacture of metal forming machinery and machine tools",
+      "parent_id": "28.00"
+    },
+    {
+      "id": "28.90",
+      "name": "Manufacture of other special-purpose machinery",
+      "parent_id": "28.00"
+    },
+    {
+      "id": "29.10",
+      "name": "Manufacture of motor vehicles",
+      "parent_id": "29.00"
+    },
+    {
+      "id": "29.20",
+      "name": "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+      "parent_id": "29.00"
+    },
+    {
+      "id": "29.30",
+      "name": "Manufacture of parts and accessories for motor vehicles",
+      "parent_id": "29.00"
+    },
+    {
+      "id": "30.10",
+      "name": "Building of ships and boats",
+      "parent_id": "30.00"
+    },
+    {
+      "id": "30.20",
+      "name": "Manufacture of railway locomotives and rolling stock",
+      "parent_id": "30.00"
+    },
+    {
+      "id": "30.30",
+      "name": "Manufacture of air and spacecraft and related machinery",
+      "parent_id": "30.00"
+    },
+    {
+      "id": "30.40",
+      "name": "Manufacture of military fighting vehicles",
+      "parent_id": "30.00"
+    },
+    {
+      "id": "30.90",
+      "name": "Manufacture of transport equipment n.e.c.",
+      "parent_id": "30.00"
+    },
+    {
+      "id": "31.10",
+      "name": "Manufacture of office and shop furniture and fittings",
+      "parent_id": "31.00"
+    },
+    {
+      "id": "31.20",
+      "name": "Manufacture of kitchen furniture and fittings",
+      "parent_id": "31.00"
+    },
+    {
+      "id": "31.30",
+      "name": "Manufacture of mattresses",
+      "parent_id": "31.00"
+    },
+    {
+      "id": "31.90",
+      "name": "Manufacture of other furniture",
+      "parent_id": "31.00"
+    },
+    {
+      "id": "32.10",
+      "name": "Manufacture of jewellery, bijouterie and related articles",
+      "parent_id": "32.00"
+    },
+    {
+      "id": "32.20",
+      "name": "Manufacture of musical instruments",
+      "parent_id": "32.00"
+    },
+    {
+      "id": "32.30",
+      "name": "Manufacture of sports goods",
+      "parent_id": "32.00"
+    },
+    {
+      "id": "32.40",
+      "name": "Manufacture of games and toys",
+      "parent_id": "32.00"
+    },
+    {
+      "id": "32.50",
+      "name": "Manufacture of medical and dental equipment",
+      "parent_id": "32.00"
+    },
+    {
+      "id": "32.90",
+      "name": "Manufacturing n.e.c.",
+      "parent_id": "32.00"
+    },
+    {
+      "id": "33.10",
+      "name": "Repair of fabricated metal products, machinery and equipment",
+      "parent_id": "33.00"
+    },
+    {
+      "id": "33.20",
+      "name": "Installation of industrial machinery and equipment",
+      "parent_id": "33.00"
+    },
+    {
+      "id": "35.10",
+      "name": "Electric power generation, transmission and distribution",
+      "parent_id": "35.00"
+    },
+    {
+      "id": "35.20",
+      "name": "Manufacture of gas; distribution of gaseous fuels through mains",
+      "parent_id": "35.00"
+    },
+    {
+      "id": "35.30",
+      "name": "Steam and air conditioning supply",
+      "parent_id": "35.00"
+    },
+    {
+      "id": "36.10",
+      "name": "Collection, treatment and supply of groundwater",
+      "parent_id": "36.00"
+    },
+    {
+      "id": "36.20",
+      "name": "Collection, treatment and supply of surface water",
+      "parent_id": "36.00"
+    },
+    {
+      "id": "38.10",
+      "name": "Waste collection",
+      "parent_id": "38.00"
+    },
+    {
+      "id": "38.20",
+      "name": "Waste treatment and disposal",
+      "parent_id": "38.00"
+    },
+    {
+      "id": "38.30",
+      "name": "Materials recovery",
+      "parent_id": "38.00"
+    },
+    {
+      "id": "41.10",
+      "name": "Development of building projects",
+      "parent_id": "41.00"
+    },
+    {
+      "id": "41.20",
+      "name": "Construction of residential and non-residential buildings",
+      "parent_id": "41.00"
+    },
+    {
+      "id": "42.10",
+      "name": "Construction of roads and railways",
+      "parent_id": "42.00"
+    },
+    {
+      "id": "42.20",
+      "name": "Construction of utility projects",
+      "parent_id": "42.00"
+    },
+    {
+      "id": "42.90",
+      "name": "Construction of other civil engineering projects",
+      "parent_id": "42.00"
+    },
+    {
+      "id": "43.10",
+      "name": "Demolition and site preparation",
+      "parent_id": "43.00"
+    },
+    {
+      "id": "43.20",
+      "name": "Electrical, plumbing and other construction installation activities",
+      "parent_id": "43.00"
+    },
+    {
+      "id": "43.30",
+      "name": "Building completion and finishing",
+      "parent_id": "43.00"
+    },
+    {
+      "id": "43.90",
+      "name": "Other specialised construction activities",
+      "parent_id": "43.00"
+    },
+    {
+      "id": "45.10",
+      "name": "Sale of motor vehicles",
+      "parent_id": "45.00"
+    },
+    {
+      "id": "45.20",
+      "name": "Maintenance and repair of motor vehicles",
+      "parent_id": "45.00"
+    },
+    {
+      "id": "45.30",
+      "name": "Sale of motor vehicle parts and accessories",
+      "parent_id": "45.00"
+    },
+    {
+      "id": "45.40",
+      "name": "Sale, maintenance and repair of motorcycles and related parts and accessories",
+      "parent_id": "45.00"
+    },
+    {
+      "id": "46.10",
+      "name": "Wholesale on a fee or contract basis",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "46.20",
+      "name": "Wholesale of agricultural raw materials and live animals",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "46.30",
+      "name": "Wholesale of food, beverages and tobacco",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "46.40",
+      "name": "Wholesale of household goods",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "46.50",
+      "name": "Wholesale of information and communication equipment",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "46.60",
+      "name": "Wholesale of other machinery, equipment and supplies",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "46.70",
+      "name": "Other specialised wholesale",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "46.90",
+      "name": "Non-specialised wholesale trade",
+      "parent_id": "46.00"
+    },
+    {
+      "id": "47.10",
+      "name": "Retail sale in non-specialised stores",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.20",
+      "name": "Retail sale of food, beverages and tobacco in specialised stores",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.30",
+      "name": "Retail sale of automotive fuel in specialised stores",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.40",
+      "name": "Retail sale of information and communication equipment in specialised stores",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.50",
+      "name": "Retail sale of other household equipment in specialised stores",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.60",
+      "name": "Retail sale of cultural and recreation goods in specialised stores",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.70",
+      "name": "Retail sale of other goods in specialised stores",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.80",
+      "name": "Retail sale via stalls and markets",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "47.90",
+      "name": "Retail trade not in stores, stalls or markets",
+      "parent_id": "47.00"
+    },
+    {
+      "id": "49.10",
+      "name": "Passenger rail transport, interurban",
+      "parent_id": "49.00"
+    },
+    {
+      "id": "49.20",
+      "name": "Freight rail transport",
+      "parent_id": "49.00"
+    },
+    {
+      "id": "49.30",
+      "name": "Other passenger land transport",
+      "parent_id": "49.00"
+    },
+    {
+      "id": "49.40",
+      "name": "Freight transport by road and removal services",
+      "parent_id": "49.00"
+    },
+    {
+      "id": "49.50",
+      "name": "Transport via pipeline",
+      "parent_id": "49.00"
+    },
+    {
+      "id": "50.10",
+      "name": "Sea and coastal passenger water transport",
+      "parent_id": "50.00"
+    },
+    {
+      "id": "50.20",
+      "name": "Sea and coastal freight water transport",
+      "parent_id": "50.00"
+    },
+    {
+      "id": "50.30",
+      "name": "Inland passenger water transport",
+      "parent_id": "50.00"
+    },
+    {
+      "id": "50.40",
+      "name": "Inland freight water transport",
+      "parent_id": "50.00"
+    },
+    {
+      "id": "51.10",
+      "name": "Passenger air transport",
+      "parent_id": "51.00"
+    },
+    {
+      "id": "51.20",
+      "name": "Freight air transport and space transport",
+      "parent_id": "51.00"
+    },
+    {
+      "id": "52.10",
+      "name": "Warehousing and storage",
+      "parent_id": "52.00"
+    },
+    {
+      "id": "52.20",
+      "name": "Support activities for transportation",
+      "parent_id": "52.00"
+    },
+    {
+      "id": "53.10",
+      "name": "Postal activities under universal service obligation",
+      "parent_id": "53.00"
+    },
+    {
+      "id": "53.20",
+      "name": "Other postal and courier activities",
+      "parent_id": "53.00"
+    },
+    {
+      "id": "55.10",
+      "name": "Hotels and similar accommodation",
+      "parent_id": "55.00"
+    },
+    {
+      "id": "55.20",
+      "name": "Holiday and other short-stay accommodation",
+      "parent_id": "55.00"
+    },
+    {
+      "id": "55.30",
+      "name": "Camping grounds, recreational vehicle parks and trailer parks",
+      "parent_id": "55.00"
+    },
+    {
+      "id": "55.90",
+      "name": "Other accommodation",
+      "parent_id": "55.00"
+    },
+    {
+      "id": "56.10",
+      "name": "Restaurants and mobile food service activities",
+      "parent_id": "56.00"
+    },
+    {
+      "id": "56.20",
+      "name": "Event catering and other food service activities",
+      "parent_id": "56.00"
+    },
+    {
+      "id": "56.30",
+      "name": "Beverage serving activities",
+      "parent_id": "56.00"
+    },
+    {
+      "id": "58.10",
+      "name": "Publishing of books, periodicals and other publishing activities",
+      "parent_id": "58.00"
+    },
+    {
+      "id": "58.20",
+      "name": "Software publishing",
+      "parent_id": "58.00"
+    },
+    {
+      "id": "59.10",
+      "name": "Motion picture, video and television programme activities",
+      "parent_id": "59.00"
+    },
+    {
+      "id": "59.20",
+      "name": "Sound recording and music publishing activities",
+      "parent_id": "59.00"
+    },
+    {
+      "id": "60.10",
+      "name": "Radio broadcasting",
+      "parent_id": "60.00"
+    },
+    {
+      "id": "60.20",
+      "name": "Television programming and broadcasting activities",
+      "parent_id": "60.00"
+    },
+    {
+      "id": "61.10",
+      "name": "Wired telecommunications activities",
+      "parent_id": "61.00"
+    },
+    {
+      "id": "61.20",
+      "name": "Wireless telecommunications activities",
+      "parent_id": "61.00"
+    },
+    {
+      "id": "61.30",
+      "name": "Satellite telecommunications activities",
+      "parent_id": "61.00"
+    },
+    {
+      "id": "61.90",
+      "name": "Other telecommunications activities",
+      "parent_id": "61.00"
+    },
+    {
+      "id": "62.10",
+      "name": "Computer programming activities",
+      "parent_id": "62.00"
+    },
+    {
+      "id": "62.20",
+      "name": "Computer consultancy activities",
+      "parent_id": "62.00"
+    },
+    {
+      "id": "62.30",
+      "name": "Computer facilities management activities",
+      "parent_id": "62.00"
+    },
+    {
+      "id": "62.90",
+      "name": "Other information technology and computer service activities",
+      "parent_id": "62.00"
+    },
+    {
+      "id": "63.10",
+      "name": "Data processing, hosting and related activities; web portals",
+      "parent_id": "63.00"
+    },
+    {
+      "id": "63.90",
+      "name": "Other information service activities",
+      "parent_id": "63.00"
+    },
+    {
+      "id": "64.10",
+      "name": "Monetary intermediation",
+      "parent_id": "64.00"
+    },
+    {
+      "id": "64.20",
+      "name": "Activities of holding companies",
+      "parent_id": "64.00"
+    },
+    {
+      "id": "64.30",
+      "name": "Trusts, funds and similar financial entities",
+      "parent_id": "64.00"
+    },
+    {
+      "id": "64.90",
+      "name": "Other financial service activities, except insurance and pension funding",
+      "parent_id": "64.00"
+    },
+    {
+      "id": "65.10",
+      "name": "Insurance",
+      "parent_id": "65.00"
+    },
+    {
+      "id": "65.20",
+      "name": "Reinsurance",
+      "parent_id": "65.00"
+    },
+    {
+      "id": "65.30",
+      "name": "Pension funding",
+      "parent_id": "65.00"
+    },
+    {
+      "id": "66.10",
+      "name": "Activities auxiliary to financial services, except insurance and pension funding",
+      "parent_id": "66.00"
+    },
+    {
+      "id": "66.20",
+      "name": "Activities auxiliary to insurance and pension funding",
+      "parent_id": "66.00"
+    },
+    {
+      "id": "66.30",
+      "name": "Fund management activities",
+      "parent_id": "66.00"
+    },
+    {
+      "id": "68.10",
+      "name": "Buying and selling of own real estate",
+      "parent_id": "68.00"
+    },
+    {
+      "id": "68.20",
+      "name": "Renting and operating of own or leased real estate",
+      "parent_id": "68.00"
+    },
+    {
+      "id": "68.30",
+      "name": "Real estate activities on a fee or contract basis",
+      "parent_id": "68.00"
+    },
+    {
+      "id": "69.10",
+      "name": "Legal activities",
+      "parent_id": "69.00"
+    },
+    {
+      "id": "69.20",
+      "name": "Accounting, bookkeeping and auditing activities; tax consultancy",
+      "parent_id": "69.00"
+    },
+    {
+      "id": "70.10",
+      "name": "Activities of head offices",
+      "parent_id": "70.00"
+    },
+    {
+      "id": "70.20",
+      "name": "Management consultancy activities",
+      "parent_id": "70.00"
+    },
+    {
+      "id": "71.10",
+      "name": "Architectural and engineering activities and related technical consultancy",
+      "parent_id": "71.00"
+    },
+    {
+      "id": "71.20",
+      "name": "Technical testing and analysis",
+      "parent_id": "71.00"
+    },
+    {
+      "id": "72.10",
+      "name": "Research and experimental development on natural sciences and engineering",
+      "parent_id": "72.00"
+    },
+    {
+      "id": "72.20",
+      "name": "Research and experimental development on social sciences and humanities",
+      "parent_id": "72.00"
+    },
+    {
+      "id": "73.10",
+      "name": "Advertising",
+      "parent_id": "73.00"
+    },
+    {
+      "id": "73.20",
+      "name": "Market research and public opinion polling",
+      "parent_id": "73.00"
+    },
+    {
+      "id": "74.10",
+      "name": "Specialised design activities",
+      "parent_id": "74.00"
+    },
+    {
+      "id": "74.20",
+      "name": "Photographic activities",
+      "parent_id": "74.00"
+    },
+    {
+      "id": "74.30",
+      "name": "Translation and interpretation activities",
+      "parent_id": "74.00"
+    },
+    {
+      "id": "74.90",
+      "name": "Other professional, scientific and technical activities n.e.c.",
+      "parent_id": "74.00"
+    },
+    {
+      "id": "77.10",
+      "name": "Renting and leasing of motor vehicles",
+      "parent_id": "77.00"
+    },
+    {
+      "id": "77.20",
+      "name": "Renting and leasing of personal and household goods",
+      "parent_id": "77.00"
+    },
+    {
+      "id": "77.30",
+      "name": "Renting and leasing of other machinery, equipment and tangible goods",
+      "parent_id": "77.00"
+    },
+    {
+      "id": "77.40",
+      "name": "Leasing of intellectual property and similar products, except copyrighted works",
+      "parent_id": "77.00"
+    },
+    {
+      "id": "78.10",
+      "name": "Activities of employment placement agencies",
+      "parent_id": "78.00"
+    },
+    {
+      "id": "78.20",
+      "name": "Temporary employment agency activities",
+      "parent_id": "78.00"
+    },
+    {
+      "id": "78.30",
+      "name": "Other human resources provision",
+      "parent_id": "78.00"
+    },
+    {
+      "id": "79.10",
+      "name": "Travel agency and tour operator activities",
+      "parent_id": "79.00"
+    },
+    {
+      "id": "79.90",
+      "name": "Other reservation service and related activities",
+      "parent_id": "79.00"
+    },
+    {
+      "id": "80.10",
+      "name": "Private security activities",
+      "parent_id": "80.00"
+    },
+    {
+      "id": "80.20",
+      "name": "Security systems service activities",
+      "parent_id": "80.00"
+    },
+    {
+      "id": "80.30",
+      "name": "Investigation activities",
+      "parent_id": "80.00"
+    },
+    {
+      "id": "81.10",
+      "name": "Combined facilities support activities",
+      "parent_id": "81.00"
+    },
+    {
+      "id": "81.20",
+      "name": "Cleaning activities",
+      "parent_id": "81.00"
+    },
+    {
+      "id": "81.30",
+      "name": "Landscape service activities",
+      "parent_id": "81.00"
+    },
+    {
+      "id": "82.10",
+      "name": "Office administrative and support activities",
+      "parent_id": "82.00"
+    },
+    {
+      "id": "82.20",
+      "name": "Activities of call centres",
+      "parent_id": "82.00"
+    },
+    {
+      "id": "82.30",
+      "name": "Organisation of conventions and trade shows",
+      "parent_id": "82.00"
+    },
+    {
+      "id": "82.90",
+      "name": "Business support service activities n.e.c.",
+      "parent_id": "82.00"
+    },
+    {
+      "id": "84.10",
+      "name": "Administration of the State and the economic and social policy of the community",
+      "parent_id": "84.00"
+    },
+    {
+      "id": "84.20",
+      "name": "Provision of services to the community as a whole",
+      "parent_id": "84.00"
+    },
+    {
+      "id": "84.30",
+      "name": "Compulsory social security activities",
+      "parent_id": "84.00"
+    },
+    {
+      "id": "85.10",
+      "name": "Pre-primary education",
+      "parent_id": "85.00"
+    },
+    {
+      "id": "85.20",
+      "name": "Primary education",
+      "parent_id": "85.00"
+    },
+    {
+      "id": "85.30",
+      "name": "Secondary education",
+      "parent_id": "85.00"
+    },
+    {
+      "id": "85.40",
+      "name": "Higher education",
+      "parent_id": "85.00"
+    },
+    {
+      "id": "85.50",
+      "name": "Other education",
+      "parent_id": "85.00"
+    },
+    {
+      "id": "85.60",
+      "name": "Educational support activities",
+      "parent_id": "85.00"
+    },
+    {
+      "id": "86.10",
+      "name": "Hospital activities",
+      "parent_id": "86.00"
+    },
+    {
+      "id": "86.20",
+      "name": "Medical and dental practice activities",
+      "parent_id": "86.00"
+    },
+    {
+      "id": "86.90",
+      "name": "Other human health activities",
+      "parent_id": "86.00"
+    },
+    {
+      "id": "87.10",
+      "name": "Residential nursing care activities",
+      "parent_id": "87.00"
+    },
+    {
+      "id": "87.20",
+      "name": "Residential care activities for mental retardation, mental health and substance abuse",
+      "parent_id": "87.00"
+    },
+    {
+      "id": "87.30",
+      "name": "Residential care activities for the elderly and disabled",
+      "parent_id": "87.00"
+    },
+    {
+      "id": "87.90",
+      "name": "Other residential care activities",
+      "parent_id": "87.00"
+    },
+    {
+      "id": "88.10",
+      "name": "Social work activities without accommodation for the elderly and disabled",
+      "parent_id": "88.00"
+    },
+    {
+      "id": "88.90",
+      "name": "Other social work activities without accommodation",
+      "parent_id": "88.00"
+    },
+    {
+      "id": "90.10",
+      "name": "Performing arts",
+      "parent_id": "90.00"
+    },
+    {
+      "id": "90.20",
+      "name": "Support activities to performing arts",
+      "parent_id": "90.00"
+    },
+    {
+      "id": "90.30",
+      "name": "Artistic creation",
+      "parent_id": "90.00"
+    },
+    {
+      "id": "90.40",
+      "name": "Operation of arts facilities",
+      "parent_id": "90.00"
+    },
+    {
+      "id": "91.10",
+      "name": "Library and archives activities",
+      "parent_id": "91.00"
+    },
+    {
+      "id": "91.20",
+      "name": "Museums activities",
+      "parent_id": "91.00"
+    },
+    {
+      "id": "91.30",
+      "name": "Operation of historical sites and buildings and similar visitor attractions",
+      "parent_id": "91.00"
+    },
+    {
+      "id": "91.40",
+      "name": "Botanical and zoological gardens and nature reserves activities",
+      "parent_id": "91.00"
+    },
+    {
+      "id": "93.10",
+      "name": "Sports activities",
+      "parent_id": "93.00"
+    },
+    {
+      "id": "93.20",
+      "name": "Amusement and recreation activities",
+      "parent_id": "93.00"
+    },
+    {
+      "id": "94.10",
+      "name": "Activities of business, employers and professional membership organisations",
+      "parent_id": "94.00"
+    },
+    {
+      "id": "94.20",
+      "name": "Activities of trade unions",
+      "parent_id": "94.00"
+    },
+    {
+      "id": "94.90",
+      "name": "Activities of other membership organisations",
+      "parent_id": "94.00"
+    },
+    {
+      "id": "95.10",
+      "name": "Repair of computers and communication equipment",
+      "parent_id": "95.00"
+    },
+    {
+      "id": "95.20",
+      "name": "Repair of personal and household goods",
+      "parent_id": "95.00"
+    },
+    {
+      "id": "96.10",
+      "name": "Washing and (dry-)cleaning of textile and fur products",
+      "parent_id": "96.00"
+    },
+    {
+      "id": "96.20",
+      "name": "Hairdressing and other beauty treatment",
+      "parent_id": "96.00"
+    },
+    {
+      "id": "96.30",
+      "name": "Funeral and related activities",
+      "parent_id": "96.00"
+    },
+    {
+      "id": "96.40",
+      "name": "Physical well-being activities",
+      "parent_id": "96.00"
+    },
+    {
+      "id": "96.90",
+      "name": "Other personal service activities n.e.c.",
+      "parent_id": "96.00"
+    },
+    {
+      "id": "98.10",
+      "name": "Undifferentiated goods-producing activities of private households for own use",
+      "parent_id": "98.00"
+    },
+    {
+      "id": "98.20",
+      "name": "Undifferentiated service-producing activities of private households for own use",
+      "parent_id": "98.00"
+    },
+    {
+      "id": "01.11",
+      "name": "Growing of cereals (except rice), leguminous crops and oil seeds",
+      "parent_id": "01.10"
+    },
+    {
+      "id": "01.12",
+      "name": "Growing of rice",
+      "parent_id": "01.10"
+    },
+    {
+      "id": "01.13",
+      "name": "Growing of vegetables and melons, roots and tubers",
+      "parent_id": "01.10"
+    },
+    {
+      "id": "01.14",
+      "name": "Growing of sugar cane",
+      "parent_id": "01.10"
+    },
+    {
+      "id": "01.15",
+      "name": "Growing of tobacco",
+      "parent_id": "01.10"
+    },
+    {
+      "id": "01.16",
+      "name": "Growing of fibre crops",
+      "parent_id": "01.10"
+    },
+    {
+      "id": "01.19",
+      "name": "Growing of other non-perennial crops",
+      "parent_id": "01.10"
+    },
+    {
+      "id": "01.21",
+      "name": "Growing of grapes",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.22",
+      "name": "Growing of tropical and subtropical fruits",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.23",
+      "name": "Growing of citrus fruits",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.24",
+      "name": "Growing of pome fruits and stone fruits",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.25",
+      "name": "Growing of other tree and bush fruits and nuts",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.26",
+      "name": "Growing of oleaginous fruits",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.27",
+      "name": "Growing of beverage crops",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.28",
+      "name": "Growing of spices, aromatic, drug and pharmaceutical crops",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.29",
+      "name": "Growing of other perennial crops",
+      "parent_id": "01.20"
+    },
+    {
+      "id": "01.31",
+      "name": "Plant propagation in greenhouses",
+      "parent_id": "01.30"
+    },
+    {
+      "id": "01.32",
+      "name": "Plant propagation in the open",
+      "parent_id": "01.30"
+    },
+    {
+      "id": "01.41",
+      "name": "Milk production and raising of dairy cattle",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.42",
+      "name": "Raising of other cattle and buffaloes",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.43",
+      "name": "Raising of horses and other equines",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.44",
+      "name": "Raising of camels and camelids",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.45",
+      "name": "Raising of sheep and  goats",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.46",
+      "name": "Raising of swine/pigs",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.47",
+      "name": "Egg production and raising of poultry",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.49",
+      "name": "Raising of other animals",
+      "parent_id": "01.40"
+    },
+    {
+      "id": "01.61",
+      "name": "Support activities for crop production",
+      "parent_id": "01.60"
+    },
+    {
+      "id": "01.62",
+      "name": "Support activities for animal production",
+      "parent_id": "01.60"
+    },
+    {
+      "id": "01.63",
+      "name": "Post-harvest crop activities",
+      "parent_id": "01.60"
+    },
+    {
+      "id": "01.64",
+      "name": "Seed processing for propagation",
+      "parent_id": "01.60"
+    },
+    {
+      "id": "02.11",
+      "name": "Forest management",
+      "parent_id": "02.10"
+    },
+    {
+      "id": "02.12",
+      "name": "Silviculture",
+      "parent_id": "02.10"
+    },
+    {
+      "id": "02.19",
+      "name": "Other forestry activities",
+      "parent_id": "02.10"
+    },
+    {
+      "id": "02.41",
+      "name": "Wood measurement",
+      "parent_id": "02.40"
+    },
+    {
+      "id": "02.49",
+      "name": "Other support services to forestry",
+      "parent_id": "02.40"
+    },
+    {
+      "id": "03.11",
+      "name": "Marine fishing",
+      "parent_id": "03.10"
+    },
+    {
+      "id": "03.12",
+      "name": "Freshwater fishing",
+      "parent_id": "03.10"
+    },
+    {
+      "id": "03.21",
+      "name": "Marine aquaculture",
+      "parent_id": "03.20"
+    },
+    {
+      "id": "03.22",
+      "name": "Freshwater aquaculture",
+      "parent_id": "03.20"
+    },
+    {
+      "id": "07.21",
+      "name": "Mining of uranium and thorium ores",
+      "parent_id": "07.20"
+    },
+    {
+      "id": "07.29",
+      "name": "Mining of other non-ferrous metal ores",
+      "parent_id": "07.20"
+    },
+    {
+      "id": "08.11",
+      "name": "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",
+      "parent_id": "08.10"
+    },
+    {
+      "id": "08.12",
+      "name": "Operation of gravel and sand pits; mining of clays and kaolin",
+      "parent_id": "08.10"
+    },
+    {
+      "id": "08.91",
+      "name": "Mining of chemical and fertiliser minerals",
+      "parent_id": "08.90"
+    },
+    {
+      "id": "08.92",
+      "name": "Extraction of peat",
+      "parent_id": "08.90"
+    },
+    {
+      "id": "08.93",
+      "name": "Extraction of salt",
+      "parent_id": "08.90"
+    },
+    {
+      "id": "08.99",
+      "name": "Other mining and quarrying n.e.c.",
+      "parent_id": "08.90"
+    },
+    {
+      "id": "10.11",
+      "name": "Processing and preserving of meat",
+      "parent_id": "10.10"
+    },
+    {
+      "id": "10.12",
+      "name": "Processing and preserving of poultry meat",
+      "parent_id": "10.10"
+    },
+    {
+      "id": "10.13",
+      "name": "Production of meat and poultry meat products",
+      "parent_id": "10.10"
+    },
+    {
+      "id": "10.31",
+      "name": "Processing and preserving of potatoes",
+      "parent_id": "10.30"
+    },
+    {
+      "id": "10.32",
+      "name": "Manufacture of fruit and vegetable juice",
+      "parent_id": "10.30"
+    },
+    {
+      "id": "10.39",
+      "name": "Other processing and preserving of fruit and vegetables",
+      "parent_id": "10.30"
+    },
+    {
+      "id": "10.41",
+      "name": "Manufacture of oils and fats",
+      "parent_id": "10.40"
+    },
+    {
+      "id": "10.42",
+      "name": "Manufacture of margarine and similar edible fats",
+      "parent_id": "10.40"
+    },
+    {
+      "id": "10.51",
+      "name": "Operation of dairies and cheese making",
+      "parent_id": "10.50"
+    },
+    {
+      "id": "10.52",
+      "name": "Manufacture of ice cream",
+      "parent_id": "10.50"
+    },
+    {
+      "id": "10.61",
+      "name": "Manufacture of grain mill products",
+      "parent_id": "10.60"
+    },
+    {
+      "id": "10.62",
+      "name": "Manufacture of starches and starch products",
+      "parent_id": "10.60"
+    },
+    {
+      "id": "10.71",
+      "name": "Manufacture of bread; manufacture of fresh pastry goods and cakes",
+      "parent_id": "10.70"
+    },
+    {
+      "id": "10.72",
+      "name": "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes",
+      "parent_id": "10.70"
+    },
+    {
+      "id": "10.73",
+      "name": "Manufacture of macaroni, noodles, couscous and similar farinaceous products",
+      "parent_id": "10.70"
+    },
+    {
+      "id": "10.81",
+      "name": "Manufacture of sugar",
+      "parent_id": "10.80"
+    },
+    {
+      "id": "10.82",
+      "name": "Manufacture of cocoa, chocolate and sugar confectionery",
+      "parent_id": "10.80"
+    },
+    {
+      "id": "10.83",
+      "name": "Processing of tea and coffee",
+      "parent_id": "10.80"
+    },
+    {
+      "id": "10.84",
+      "name": "Manufacture of condiments and seasonings",
+      "parent_id": "10.80"
+    },
+    {
+      "id": "10.85",
+      "name": "Manufacture of prepared meals and dishes",
+      "parent_id": "10.80"
+    },
+    {
+      "id": "10.86",
+      "name": "Manufacture of homogenised food preparations and dietetic food",
+      "parent_id": "10.80"
+    },
+    {
+      "id": "10.89",
+      "name": "Manufacture of other food products n.e.c.",
+      "parent_id": "10.80"
+    },
+    {
+      "id": "10.91",
+      "name": "Manufacture of prepared feeds for farm animals",
+      "parent_id": "10.90"
+    },
+    {
+      "id": "10.92",
+      "name": "Manufacture of prepared pet foods",
+      "parent_id": "10.90"
+    },
+    {
+      "id": "13.91",
+      "name": "Manufacture of knitted and crocheted fabrics",
+      "parent_id": "13.90"
+    },
+    {
+      "id": "13.92",
+      "name": "Manufacture of made-up textile articles, except apparel",
+      "parent_id": "13.90"
+    },
+    {
+      "id": "13.93",
+      "name": "Manufacture of carpets and rugs",
+      "parent_id": "13.90"
+    },
+    {
+      "id": "13.94",
+      "name": "Manufacture of cordage, rope, twine and netting",
+      "parent_id": "13.90"
+    },
+    {
+      "id": "13.95",
+      "name": "Manufacture of non-wovens and articles made from non-wovens, except apparel",
+      "parent_id": "13.90"
+    },
+    {
+      "id": "13.96",
+      "name": "Manufacture of other technical and industrial textiles",
+      "parent_id": "13.90"
+    },
+    {
+      "id": "13.99",
+      "name": "Manufacture of other textiles n.e.c.",
+      "parent_id": "13.90"
+    },
+    {
+      "id": "14.11",
+      "name": "Manufacture of leather clothes",
+      "parent_id": "14.10"
+    },
+    {
+      "id": "14.12",
+      "name": "Manufacture of workwear",
+      "parent_id": "14.10"
+    },
+    {
+      "id": "14.13",
+      "name": "Manufacture of other outerwear",
+      "parent_id": "14.10"
+    },
+    {
+      "id": "14.14",
+      "name": "Manufacture of underwear",
+      "parent_id": "14.10"
+    },
+    {
+      "id": "14.19",
+      "name": "Manufacture of other wearing apparel and accessories",
+      "parent_id": "14.10"
+    },
+    {
+      "id": "14.31",
+      "name": "Manufacture of knitted and crocheted hosiery",
+      "parent_id": "14.30"
+    },
+    {
+      "id": "14.39",
+      "name": "Manufacture of other knitted and crocheted apparel",
+      "parent_id": "14.30"
+    },
+    {
+      "id": "15.11",
+      "name": "Tanning and dressing of leather; dressing and dyeing of fur",
+      "parent_id": "15.10"
+    },
+    {
+      "id": "15.12",
+      "name": "Manufacture of luggage, handbags and the like, saddlery and harness",
+      "parent_id": "15.10"
+    },
+    {
+      "id": "16.11",
+      "name": "Sawmilling",
+      "parent_id": "16.10"
+    },
+    {
+      "id": "16.12",
+      "name": "Planing of wood",
+      "parent_id": "16.10"
+    },
+    {
+      "id": "16.13",
+      "name": "Impregnation of wood",
+      "parent_id": "16.10"
+    },
+    {
+      "id": "16.21",
+      "name": "Manufacture of veneer sheets and wood-based panels",
+      "parent_id": "16.20"
+    },
+    {
+      "id": "16.22",
+      "name": "Manufacture of assembled parquet floors",
+      "parent_id": "16.20"
+    },
+    {
+      "id": "16.23",
+      "name": "Manufacture of other builders' carpentry and joinery",
+      "parent_id": "16.20"
+    },
+    {
+      "id": "16.24",
+      "name": "Manufacture of wooden containers",
+      "parent_id": "16.20"
+    },
+    {
+      "id": "16.29",
+      "name": "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",
+      "parent_id": "16.20"
+    },
+    {
+      "id": "17.11",
+      "name": "Manufacture of pulp",
+      "parent_id": "17.10"
+    },
+    {
+      "id": "17.12",
+      "name": "Manufacture of paper and paperboard",
+      "parent_id": "17.10"
+    },
+    {
+      "id": "17.21",
+      "name": "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard",
+      "parent_id": "17.20"
+    },
+    {
+      "id": "17.22",
+      "name": "Manufacture of household and sanitary goods and of toilet requisites",
+      "parent_id": "17.20"
+    },
+    {
+      "id": "17.23",
+      "name": "Manufacture of paper stationery",
+      "parent_id": "17.20"
+    },
+    {
+      "id": "17.24",
+      "name": "Manufacture of wallpaper",
+      "parent_id": "17.20"
+    },
+    {
+      "id": "17.29",
+      "name": "Manufacture of other articles of paper and paperboard",
+      "parent_id": "17.20"
+    },
+    {
+      "id": "18.11",
+      "name": "Printing of newspapers",
+      "parent_id": "18.10"
+    },
+    {
+      "id": "18.12",
+      "name": "Other printing",
+      "parent_id": "18.10"
+    },
+    {
+      "id": "18.13",
+      "name": "Pre-press and pre-media services",
+      "parent_id": "18.10"
+    },
+    {
+      "id": "18.14",
+      "name": "Binding and related services",
+      "parent_id": "18.10"
+    },
+    {
+      "id": "20.11",
+      "name": "Manufacture of industrial gases",
+      "parent_id": "20.10"
+    },
+    {
+      "id": "20.12",
+      "name": "Manufacture of dyes and pigments",
+      "parent_id": "20.10"
+    },
+    {
+      "id": "20.13",
+      "name": "Manufacture of other inorganic basic chemicals",
+      "parent_id": "20.10"
+    },
+    {
+      "id": "20.14",
+      "name": "Manufacture of other organic basic chemicals",
+      "parent_id": "20.10"
+    },
+    {
+      "id": "20.15",
+      "name": "Manufacture of fertilisers and nitrogen compounds",
+      "parent_id": "20.10"
+    },
+    {
+      "id": "20.16",
+      "name": "Manufacture of plastics in primary forms",
+      "parent_id": "20.10"
+    },
+    {
+      "id": "20.17",
+      "name": "Manufacture of synthetic rubber in primary forms",
+      "parent_id": "20.10"
+    },
+    {
+      "id": "20.41",
+      "name": "Manufacture of soap and detergents, cleaning and polishing preparations",
+      "parent_id": "20.40"
+    },
+    {
+      "id": "20.42",
+      "name": "Manufacture of perfumes and toilet preparations",
+      "parent_id": "20.40"
+    },
+    {
+      "id": "20.51",
+      "name": "Manufacture of explosives",
+      "parent_id": "20.50"
+    },
+    {
+      "id": "20.52",
+      "name": "Manufacture of glues",
+      "parent_id": "20.50"
+    },
+    {
+      "id": "20.53",
+      "name": "Manufacture of essential oils",
+      "parent_id": "20.50"
+    },
+    {
+      "id": "20.59",
+      "name": "Manufacture of other chemical products n.e.c.",
+      "parent_id": "20.50"
+    },
+    {
+      "id": "22.11",
+      "name": "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres",
+      "parent_id": "22.10"
+    },
+    {
+      "id": "22.19",
+      "name": "Manufacture of other rubber products",
+      "parent_id": "22.10"
+    },
+    {
+      "id": "22.21",
+      "name": "Manufacture of plastic plates, sheets, tubes and profiles",
+      "parent_id": "22.20"
+    },
+    {
+      "id": "22.22",
+      "name": "Manufacture of plastic packing goods",
+      "parent_id": "22.20"
+    },
+    {
+      "id": "22.23",
+      "name": "Manufacture of builders\u2019 ware of plastic",
+      "parent_id": "22.20"
+    },
+    {
+      "id": "22.29",
+      "name": "Manufacture of other plastic products",
+      "parent_id": "22.20"
+    },
+    {
+      "id": "23.11",
+      "name": "Manufacture of flat glass",
+      "parent_id": "23.10"
+    },
+    {
+      "id": "23.12",
+      "name": "Shaping and processing of flat glass",
+      "parent_id": "23.10"
+    },
+    {
+      "id": "23.13",
+      "name": "Manufacture of hollow glass",
+      "parent_id": "23.10"
+    },
+    {
+      "id": "23.14",
+      "name": "Manufacture of glass fibres",
+      "parent_id": "23.10"
+    },
+    {
+      "id": "23.19",
+      "name": "Manufacture and processing of other glass, including technical glassware",
+      "parent_id": "23.10"
+    },
+    {
+      "id": "23.31",
+      "name": "Manufacture of ceramic tiles and flags",
+      "parent_id": "23.30"
+    },
+    {
+      "id": "23.32",
+      "name": "Manufacture of bricks, tiles and construction products, in baked clay",
+      "parent_id": "23.30"
+    },
+    {
+      "id": "23.41",
+      "name": "Manufacture of ceramic household and ornamental articles",
+      "parent_id": "23.40"
+    },
+    {
+      "id": "23.42",
+      "name": "Manufacture of ceramic sanitary fixtures",
+      "parent_id": "23.40"
+    },
+    {
+      "id": "23.43",
+      "name": "Manufacture of ceramic insulators and insulating fittings",
+      "parent_id": "23.40"
+    },
+    {
+      "id": "23.44",
+      "name": "Manufacture of other technical ceramic products",
+      "parent_id": "23.40"
+    },
+    {
+      "id": "23.49",
+      "name": "Manufacture of other ceramic products",
+      "parent_id": "23.40"
+    },
+    {
+      "id": "23.51",
+      "name": "Manufacture of cement",
+      "parent_id": "23.50"
+    },
+    {
+      "id": "23.52",
+      "name": "Manufacture of lime and plaster",
+      "parent_id": "23.50"
+    },
+    {
+      "id": "23.61",
+      "name": "Manufacture of concrete products for construction purposes",
+      "parent_id": "23.60"
+    },
+    {
+      "id": "23.62",
+      "name": "Manufacture of plaster products for construction purposes",
+      "parent_id": "23.60"
+    },
+    {
+      "id": "23.63",
+      "name": "Manufacture of ready-mixed concrete",
+      "parent_id": "23.60"
+    },
+    {
+      "id": "23.64",
+      "name": "Manufacture of mortars",
+      "parent_id": "23.60"
+    },
+    {
+      "id": "23.65",
+      "name": "Manufacture of fibre cement",
+      "parent_id": "23.60"
+    },
+    {
+      "id": "23.69",
+      "name": "Manufacture of other articles of concrete, plaster and cement",
+      "parent_id": "23.60"
+    },
+    {
+      "id": "23.71",
+      "name": "Cutting, shaping and finishing of building stone",
+      "parent_id": "23.70"
+    },
+    {
+      "id": "23.79",
+      "name": "Cutting, shaping and finishing of ornamental stone",
+      "parent_id": "23.70"
+    },
+    {
+      "id": "23.91",
+      "name": "Production of abrasive products",
+      "parent_id": "23.90"
+    },
+    {
+      "id": "23.99",
+      "name": "Manufacture of other non-metallic mineral products n.e.c.",
+      "parent_id": "23.90"
+    },
+    {
+      "id": "24.31",
+      "name": "Cold drawing of bars",
+      "parent_id": "24.30"
+    },
+    {
+      "id": "24.32",
+      "name": "Cold rolling of narrow strip",
+      "parent_id": "24.30"
+    },
+    {
+      "id": "24.33",
+      "name": "Cold forming or folding",
+      "parent_id": "24.30"
+    },
+    {
+      "id": "24.34",
+      "name": "Cold drawing of wire",
+      "parent_id": "24.30"
+    },
+    {
+      "id": "24.41",
+      "name": "Precious metals production",
+      "parent_id": "24.40"
+    },
+    {
+      "id": "24.42",
+      "name": "Aluminium production",
+      "parent_id": "24.40"
+    },
+    {
+      "id": "24.43",
+      "name": "Lead, zinc and tin production",
+      "parent_id": "24.40"
+    },
+    {
+      "id": "24.44",
+      "name": "Copper production",
+      "parent_id": "24.40"
+    },
+    {
+      "id": "24.45",
+      "name": "Other non-ferrous metal production",
+      "parent_id": "24.40"
+    },
+    {
+      "id": "24.46",
+      "name": "Processing of nuclear fuel",
+      "parent_id": "24.40"
+    },
+    {
+      "id": "24.51",
+      "name": "Casting of iron",
+      "parent_id": "24.50"
+    },
+    {
+      "id": "24.52",
+      "name": "Casting of steel",
+      "parent_id": "24.50"
+    },
+    {
+      "id": "24.53",
+      "name": "Casting of light metals",
+      "parent_id": "24.50"
+    },
+    {
+      "id": "24.54",
+      "name": "Casting of other non-ferrous metals",
+      "parent_id": "24.50"
+    },
+    {
+      "id": "25.11",
+      "name": "Manufacture of metal structures and parts of structures",
+      "parent_id": "25.10"
+    },
+    {
+      "id": "25.12",
+      "name": "Manufacture of doors and windows of metal",
+      "parent_id": "25.10"
+    },
+    {
+      "id": "25.21",
+      "name": "Manufacture of central heating radiators and boilers",
+      "parent_id": "25.20"
+    },
+    {
+      "id": "25.29",
+      "name": "Manufacture of other tanks, reservoirs and containers of metal",
+      "parent_id": "25.20"
+    },
+    {
+      "id": "25.61",
+      "name": "Treatment and coating of metals",
+      "parent_id": "25.60"
+    },
+    {
+      "id": "25.62",
+      "name": "Machining",
+      "parent_id": "25.60"
+    },
+    {
+      "id": "25.71",
+      "name": "Manufacture of cutlery",
+      "parent_id": "25.70"
+    },
+    {
+      "id": "25.72",
+      "name": "Manufacture of locks and hinges",
+      "parent_id": "25.70"
+    },
+    {
+      "id": "25.73",
+      "name": "Manufacture of tools",
+      "parent_id": "25.70"
+    },
+    {
+      "id": "25.91",
+      "name": "Manufacture of steel drums and similar containers",
+      "parent_id": "25.90"
+    },
+    {
+      "id": "25.92",
+      "name": "Manufacture of light metal packaging",
+      "parent_id": "25.90"
+    },
+    {
+      "id": "25.93",
+      "name": "Manufacture of wire products, chain and springs",
+      "parent_id": "25.90"
+    },
+    {
+      "id": "25.94",
+      "name": "Manufacture of fasteners and screw machine products",
+      "parent_id": "25.90"
+    },
+    {
+      "id": "25.99",
+      "name": "Manufacture of other fabricated metal products n.e.c.",
+      "parent_id": "25.90"
+    },
+    {
+      "id": "26.11",
+      "name": "Manufacture of electronic components",
+      "parent_id": "26.10"
+    },
+    {
+      "id": "26.12",
+      "name": "Manufacture of loaded electronic boards",
+      "parent_id": "26.10"
+    },
+    {
+      "id": "26.51",
+      "name": "Manufacture of instruments and appliances for measuring, testing and navigation",
+      "parent_id": "26.50"
+    },
+    {
+      "id": "26.52",
+      "name": "Manufacture of watches and clocks",
+      "parent_id": "26.50"
+    },
+    {
+      "id": "27.11",
+      "name": "Manufacture of electric motors, generators and transformers",
+      "parent_id": "27.10"
+    },
+    {
+      "id": "27.12",
+      "name": "Manufacture of electricity distribution and control apparatus",
+      "parent_id": "27.10"
+    },
+    {
+      "id": "27.31",
+      "name": "Manufacture of fibre optic cables",
+      "parent_id": "27.30"
+    },
+    {
+      "id": "27.32",
+      "name": "Manufacture of other electronic and electric wires and cables",
+      "parent_id": "27.30"
+    },
+    {
+      "id": "27.33",
+      "name": "Manufacture of wiring devices",
+      "parent_id": "27.30"
+    },
+    {
+      "id": "27.51",
+      "name": "Manufacture of electric domestic appliances",
+      "parent_id": "27.50"
+    },
+    {
+      "id": "27.52",
+      "name": "Manufacture of non-electric domestic appliances",
+      "parent_id": "27.50"
+    },
+    {
+      "id": "28.11",
+      "name": "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",
+      "parent_id": "28.10"
+    },
+    {
+      "id": "28.12",
+      "name": "Manufacture of fluid power equipment",
+      "parent_id": "28.10"
+    },
+    {
+      "id": "28.13",
+      "name": "Manufacture of other pumps and compressors",
+      "parent_id": "28.10"
+    },
+    {
+      "id": "28.14",
+      "name": "Manufacture of other taps and valves",
+      "parent_id": "28.10"
+    },
+    {
+      "id": "28.15",
+      "name": "Manufacture of bearings, gears, gearing and driving elements",
+      "parent_id": "28.10"
+    },
+    {
+      "id": "28.21",
+      "name": "Manufacture of ovens, furnaces and furnace burners",
+      "parent_id": "28.20"
+    },
+    {
+      "id": "28.22",
+      "name": "Manufacture of lifting and handling equipment",
+      "parent_id": "28.20"
+    },
+    {
+      "id": "28.23",
+      "name": "Manufacture of office machinery and equipment (except computers and peripheral equipment)",
+      "parent_id": "28.20"
+    },
+    {
+      "id": "28.24",
+      "name": "Manufacture of power-driven hand tools",
+      "parent_id": "28.20"
+    },
+    {
+      "id": "28.25",
+      "name": "Manufacture of non-domestic cooling and ventilation equipment",
+      "parent_id": "28.20"
+    },
+    {
+      "id": "28.29",
+      "name": "Manufacture of other general-purpose machinery n.e.c.",
+      "parent_id": "28.20"
+    },
+    {
+      "id": "28.41",
+      "name": "Manufacture of metal forming machinery",
+      "parent_id": "28.40"
+    },
+    {
+      "id": "28.49",
+      "name": "Manufacture of other machine tools",
+      "parent_id": "28.40"
+    },
+    {
+      "id": "28.91",
+      "name": "Manufacture of machinery for metallurgy",
+      "parent_id": "28.90"
+    },
+    {
+      "id": "28.92",
+      "name": "Manufacture of machinery for mining, quarrying and construction",
+      "parent_id": "28.90"
+    },
+    {
+      "id": "28.93",
+      "name": "Manufacture of machinery for food, beverage and tobacco processing",
+      "parent_id": "28.90"
+    },
+    {
+      "id": "28.94",
+      "name": "Manufacture of machinery for textile, apparel and leather production",
+      "parent_id": "28.90"
+    },
+    {
+      "id": "28.95",
+      "name": "Manufacture of machinery for paper and paperboard production",
+      "parent_id": "28.90"
+    },
+    {
+      "id": "28.96",
+      "name": "Manufacture of plastics and rubber machinery",
+      "parent_id": "28.90"
+    },
+    {
+      "id": "28.99",
+      "name": "Manufacture of other special-purpose machinery n.e.c.",
+      "parent_id": "28.90"
+    },
+    {
+      "id": "29.11",
+      "name": "Manufacture of passenger cars and other light motor vehicles",
+      "parent_id": "29.10"
+    },
+    {
+      "id": "29.12",
+      "name": "Manufacture of trucks and other heavy motor vehicles",
+      "parent_id": "29.10"
+    },
+    {
+      "id": "29.31",
+      "name": "Manufacture of electrical and electronic equipment for motor vehicles",
+      "parent_id": "29.30"
+    },
+    {
+      "id": "29.32",
+      "name": "Manufacture of other parts and accessories for motor vehicles",
+      "parent_id": "29.30"
+    },
+    {
+      "id": "30.11",
+      "name": "Building of ships and floating structures",
+      "parent_id": "30.10"
+    },
+    {
+      "id": "30.12",
+      "name": "Building of pleasure and sporting boats",
+      "parent_id": "30.10"
+    },
+    {
+      "id": "30.91",
+      "name": "Manufacture of motorcycles",
+      "parent_id": "30.90"
+    },
+    {
+      "id": "30.92",
+      "name": "Manufacture of bicycles and invalid carriages",
+      "parent_id": "30.90"
+    },
+    {
+      "id": "30.99",
+      "name": "Manufacture of other transport equipment n.e.c.",
+      "parent_id": "30.90"
+    },
+    {
+      "id": "31.11",
+      "name": "Manufacture of office and shop furniture",
+      "parent_id": "31.10"
+    },
+    {
+      "id": "31.12",
+      "name": "Manufacture of office and shop fittings",
+      "parent_id": "31.10"
+    },
+    {
+      "id": "31.21",
+      "name": "Manufacture of kitchen furniture",
+      "parent_id": "31.20"
+    },
+    {
+      "id": "31.22",
+      "name": "Manufacture of kitchen fittings",
+      "parent_id": "31.20"
+    },
+    {
+      "id": "32.11",
+      "name": "Striking of coins",
+      "parent_id": "32.10"
+    },
+    {
+      "id": "32.12",
+      "name": "Manufacture of jewellery and related articles",
+      "parent_id": "32.10"
+    },
+    {
+      "id": "32.13",
+      "name": "Manufacture of imitation jewellery and related articles",
+      "parent_id": "32.10"
+    },
+    {
+      "id": "32.51",
+      "name": "Manufacture of medical and dental instruments and supplies",
+      "parent_id": "32.50"
+    },
+    {
+      "id": "32.52",
+      "name": "Manufacture of artificial teeth, dentures, dental plates etc.",
+      "parent_id": "32.50"
+    },
+    {
+      "id": "32.91",
+      "name": "Manufacture of brooms and brushes",
+      "parent_id": "32.90"
+    },
+    {
+      "id": "32.99",
+      "name": "Other manufacturing n.e.c.",
+      "parent_id": "32.90"
+    },
+    {
+      "id": "33.11",
+      "name": "Repair of fabricated metal products",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "33.12",
+      "name": "Repair of machinery",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "33.13",
+      "name": "Repair of electronic and optical equipment",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "33.14",
+      "name": "Repair of electrical equipment",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "33.15",
+      "name": "Repair and maintenance of ships and boats",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "33.16",
+      "name": "Repair and maintenance of aircraft and spacecraft",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "33.17",
+      "name": "Repair and maintenance of other transport equipment",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "33.19",
+      "name": "Repair of other equipment",
+      "parent_id": "33.10"
+    },
+    {
+      "id": "35.11",
+      "name": "Production of electricity",
+      "parent_id": "35.10"
+    },
+    {
+      "id": "35.12",
+      "name": "Transmission of electricity",
+      "parent_id": "35.10"
+    },
+    {
+      "id": "35.13",
+      "name": "Distribution of electricity",
+      "parent_id": "35.10"
+    },
+    {
+      "id": "35.14",
+      "name": "Trade of electricity",
+      "parent_id": "35.10"
+    },
+    {
+      "id": "35.21",
+      "name": "Manufacture of gas",
+      "parent_id": "35.20"
+    },
+    {
+      "id": "35.22",
+      "name": "Distribution of gaseous fuels through mains",
+      "parent_id": "35.20"
+    },
+    {
+      "id": "35.23",
+      "name": "Trade of gas through mains",
+      "parent_id": "35.20"
+    },
+    {
+      "id": "38.11",
+      "name": "Collection of non-hazardous waste",
+      "parent_id": "38.10"
+    },
+    {
+      "id": "38.12",
+      "name": "Collection of hazardous waste",
+      "parent_id": "38.10"
+    },
+    {
+      "id": "38.21",
+      "name": "Treatment and disposal of non-hazardous waste",
+      "parent_id": "38.20"
+    },
+    {
+      "id": "38.22",
+      "name": "Treatment and disposal of hazardous waste",
+      "parent_id": "38.20"
+    },
+    {
+      "id": "38.31",
+      "name": "Dismantling of wrecks",
+      "parent_id": "38.30"
+    },
+    {
+      "id": "38.32",
+      "name": "Recovery of sorted materials",
+      "parent_id": "38.30"
+    },
+    {
+      "id": "42.11",
+      "name": "Construction of roads and motorways",
+      "parent_id": "42.10"
+    },
+    {
+      "id": "42.12",
+      "name": "Construction of railways and underground railways",
+      "parent_id": "42.10"
+    },
+    {
+      "id": "42.13",
+      "name": "Construction of bridges and tunnels",
+      "parent_id": "42.10"
+    },
+    {
+      "id": "42.21",
+      "name": "Construction of utility projects for fluids",
+      "parent_id": "42.20"
+    },
+    {
+      "id": "42.22",
+      "name": "Construction of utility projects for electricity and telecommunications",
+      "parent_id": "42.20"
+    },
+    {
+      "id": "42.91",
+      "name": "Construction of water projects",
+      "parent_id": "42.90"
+    },
+    {
+      "id": "42.99",
+      "name": "Construction of other civil engineering projects n.e.c.",
+      "parent_id": "42.90"
+    },
+    {
+      "id": "43.11",
+      "name": "Demolition",
+      "parent_id": "43.10"
+    },
+    {
+      "id": "43.12",
+      "name": "Site preparation",
+      "parent_id": "43.10"
+    },
+    {
+      "id": "43.13",
+      "name": "Test drilling and boring",
+      "parent_id": "43.10"
+    },
+    {
+      "id": "43.21",
+      "name": "Electrical installation",
+      "parent_id": "43.20"
+    },
+    {
+      "id": "43.22",
+      "name": "Plumbing, heat and air-conditioning installation",
+      "parent_id": "43.20"
+    },
+    {
+      "id": "43.29",
+      "name": "Other construction installation",
+      "parent_id": "43.20"
+    },
+    {
+      "id": "43.31",
+      "name": "Plastering",
+      "parent_id": "43.30"
+    },
+    {
+      "id": "43.32",
+      "name": "Joinery installation",
+      "parent_id": "43.30"
+    },
+    {
+      "id": "43.33",
+      "name": "Floor and wall covering",
+      "parent_id": "43.30"
+    },
+    {
+      "id": "43.34",
+      "name": "Painting and glazing",
+      "parent_id": "43.30"
+    },
+    {
+      "id": "43.39",
+      "name": "Other building completion and finishing",
+      "parent_id": "43.30"
+    },
+    {
+      "id": "43.91",
+      "name": "Roofing activities",
+      "parent_id": "43.90"
+    },
+    {
+      "id": "43.99",
+      "name": "Other specialised construction activities n.e.c.",
+      "parent_id": "43.90"
+    },
+    {
+      "id": "45.11",
+      "name": "Sale of cars and light motor vehicles",
+      "parent_id": "45.10"
+    },
+    {
+      "id": "45.19",
+      "name": "Sale of other motor vehicles",
+      "parent_id": "45.10"
+    },
+    {
+      "id": "45.21",
+      "name": "Non-specialised maintenance and repair of motor vehicles",
+      "parent_id": "45.20"
+    },
+    {
+      "id": "45.22",
+      "name": "Bodywork repair and painting of motor vehicles",
+      "parent_id": "45.20"
+    },
+    {
+      "id": "45.23",
+      "name": "Installation and repair and painting of electrical and electronic motor vehicle equipment",
+      "parent_id": "45.20"
+    },
+    {
+      "id": "45.24",
+      "name": "Tyre service",
+      "parent_id": "45.20"
+    },
+    {
+      "id": "45.31",
+      "name": "Wholesale trade of motor vehicle parts and accessories",
+      "parent_id": "45.30"
+    },
+    {
+      "id": "45.32",
+      "name": "Retail trade of motor vehicle parts and accessories",
+      "parent_id": "45.30"
+    },
+    {
+      "id": "46.11",
+      "name": "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.12",
+      "name": "Agents involved in the sale of fuels, ores, metals and industrial chemicals",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.13",
+      "name": "Agents involved in the sale of timber and building materials",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.14",
+      "name": "Agents involved in the sale of machinery, industrial equipment, ships and aircraft",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.15",
+      "name": "Agents involved in the sale of furniture, household goods, hardware and ironmongery",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.16",
+      "name": "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.17",
+      "name": "Agents involved in the sale of food, beverages and tobacco",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.18",
+      "name": "Agents specialised in the sale of other particular products",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.19",
+      "name": "Agents involved in the sale of a variety of goods",
+      "parent_id": "46.10"
+    },
+    {
+      "id": "46.21",
+      "name": "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds",
+      "parent_id": "46.20"
+    },
+    {
+      "id": "46.22",
+      "name": "Wholesale of flowers and plants",
+      "parent_id": "46.20"
+    },
+    {
+      "id": "46.23",
+      "name": "Wholesale of live animals",
+      "parent_id": "46.20"
+    },
+    {
+      "id": "46.24",
+      "name": "Wholesale of hides, skins and leather",
+      "parent_id": "46.20"
+    },
+    {
+      "id": "46.31",
+      "name": "Wholesale of fruit and vegetables",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.32",
+      "name": "Wholesale of meat and meat products",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.33",
+      "name": "Wholesale of dairy products, eggs and edible oils and fats",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.34",
+      "name": "Wholesale of beverages",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.35",
+      "name": "Wholesale of tobacco products",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.36",
+      "name": "Wholesale of sugar and chocolate and sugar confectionery",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.37",
+      "name": "Wholesale of coffee, tea, cocoa and spices",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.38",
+      "name": "Wholesale of other food, including fish, crustaceans and molluscs",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.39",
+      "name": "Non-specialised wholesale of food, beverages and tobacco",
+      "parent_id": "46.30"
+    },
+    {
+      "id": "46.41",
+      "name": "Wholesale of textiles",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.42",
+      "name": "Wholesale of clothing and footwear",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.43",
+      "name": "Wholesale of electrical household appliances and equipment",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.44",
+      "name": "Wholesale of china and glassware and cleaning materials",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.45",
+      "name": "Wholesale of perfume and cosmetics",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.46",
+      "name": "Wholesale of pharmaceutical goods",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.47",
+      "name": "Wholesale of furniture, carpets and lighting equipment",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.48",
+      "name": "Wholesale of watches and jewellery",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.49",
+      "name": "Wholesale of other household goods",
+      "parent_id": "46.40"
+    },
+    {
+      "id": "46.51",
+      "name": "Wholesale of computers, computer peripheral equipment and software",
+      "parent_id": "46.50"
+    },
+    {
+      "id": "46.52",
+      "name": "Wholesale of electronic and telecommunications equipment and parts",
+      "parent_id": "46.50"
+    },
+    {
+      "id": "46.61",
+      "name": "Wholesale of agricultural machinery, equipment and supplies",
+      "parent_id": "46.60"
+    },
+    {
+      "id": "46.62",
+      "name": "Wholesale of machine tools",
+      "parent_id": "46.60"
+    },
+    {
+      "id": "46.63",
+      "name": "Wholesale of mining, construction and civil engineering machinery",
+      "parent_id": "46.60"
+    },
+    {
+      "id": "46.64",
+      "name": "Wholesale of machinery for the textile industry and of sewing and knitting machines",
+      "parent_id": "46.60"
+    },
+    {
+      "id": "46.65",
+      "name": "Wholesale of office furniture",
+      "parent_id": "46.60"
+    },
+    {
+      "id": "46.66",
+      "name": "Wholesale of other office machinery and equipment",
+      "parent_id": "46.60"
+    },
+    {
+      "id": "46.69",
+      "name": "Wholesale of other machinery and equipment",
+      "parent_id": "46.60"
+    },
+    {
+      "id": "46.71",
+      "name": "Wholesale of solid, liquid and gaseous fuels and related products",
+      "parent_id": "46.70"
+    },
+    {
+      "id": "46.72",
+      "name": "Wholesale of metals and metal ores",
+      "parent_id": "46.70"
+    },
+    {
+      "id": "46.73",
+      "name": "Wholesale of wood, construction materials and sanitary equipment",
+      "parent_id": "46.70"
+    },
+    {
+      "id": "46.74",
+      "name": "Wholesale of hardware, plumbing and heating equipment and supplies",
+      "parent_id": "46.70"
+    },
+    {
+      "id": "46.75",
+      "name": "Wholesale of chemical products",
+      "parent_id": "46.70"
+    },
+    {
+      "id": "46.76",
+      "name": "Wholesale of other intermediate products",
+      "parent_id": "46.70"
+    },
+    {
+      "id": "46.77",
+      "name": "Wholesale of waste and scrap",
+      "parent_id": "46.70"
+    },
+    {
+      "id": "47.11",
+      "name": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+      "parent_id": "47.10"
+    },
+    {
+      "id": "47.19",
+      "name": "Other retail sale in non-specialised stores",
+      "parent_id": "47.10"
+    },
+    {
+      "id": "47.21",
+      "name": "Retail sale of fruit and vegetables in specialised stores",
+      "parent_id": "47.20"
+    },
+    {
+      "id": "47.22",
+      "name": "Retail sale of meat and meat products in specialised stores",
+      "parent_id": "47.20"
+    },
+    {
+      "id": "47.23",
+      "name": "Retail sale of fish, crustaceans and molluscs in specialised stores",
+      "parent_id": "47.20"
+    },
+    {
+      "id": "47.24",
+      "name": "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores",
+      "parent_id": "47.20"
+    },
+    {
+      "id": "47.25",
+      "name": "Retail sale of beverages in specialised stores",
+      "parent_id": "47.20"
+    },
+    {
+      "id": "47.26",
+      "name": "Retail sale of tobacco products in specialised stores",
+      "parent_id": "47.20"
+    },
+    {
+      "id": "47.29",
+      "name": "Other retail sale of food in specialised stores",
+      "parent_id": "47.20"
+    },
+    {
+      "id": "47.41",
+      "name": "Retail sale of computers, peripheral units and software in specialised stores",
+      "parent_id": "47.40"
+    },
+    {
+      "id": "47.42",
+      "name": "Retail sale of telecommunications equipment in specialised stores",
+      "parent_id": "47.40"
+    },
+    {
+      "id": "47.43",
+      "name": "Retail sale of audio and video equipment in specialised stores",
+      "parent_id": "47.40"
+    },
+    {
+      "id": "47.51",
+      "name": "Retail sale of textiles in specialised stores",
+      "parent_id": "47.50"
+    },
+    {
+      "id": "47.52",
+      "name": "Retail sale of hardware, paints and glass in specialised stores",
+      "parent_id": "47.50"
+    },
+    {
+      "id": "47.53",
+      "name": "Retail sale of carpets, rugs, wall and floor coverings and home furnishing textiles in specialised stores",
+      "parent_id": "47.50"
+    },
+    {
+      "id": "47.54",
+      "name": "Retail sale of electrical household appliances in specialised stores",
+      "parent_id": "47.50"
+    },
+    {
+      "id": "47.59",
+      "name": "Retail sale of furniture, lighting equipment and other household articles in specialised stores",
+      "parent_id": "47.50"
+    },
+    {
+      "id": "47.61",
+      "name": "Retail sale of books in specialised stores",
+      "parent_id": "47.60"
+    },
+    {
+      "id": "47.62",
+      "name": "Retail sale of newspapers and stationery in specialised stores",
+      "parent_id": "47.60"
+    },
+    {
+      "id": "47.63",
+      "name": "Retail sale of music and video recordings in specialised stores",
+      "parent_id": "47.60"
+    },
+    {
+      "id": "47.64",
+      "name": "Retail sale of sporting equipment in specialised stores",
+      "parent_id": "47.60"
+    },
+    {
+      "id": "47.65",
+      "name": "Retail sale of games and toys in specialised stores",
+      "parent_id": "47.60"
+    },
+    {
+      "id": "47.71",
+      "name": "Retail sale of clothing in specialised stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.72",
+      "name": "Retail sale of footwear and leather goods in specialised stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.73",
+      "name": "Dispensing chemist",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.74",
+      "name": "Retail sale of medical and orthopaedic goods in specialised stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.75",
+      "name": "Retail sale of cosmetic and toilet articles in specialised stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.76",
+      "name": "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.77",
+      "name": "Retail sale of watches and jewellery in specialised stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.78",
+      "name": "Other retail sale of new goods in specialised stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.79",
+      "name": "Retail sale of second-hand goods in stores",
+      "parent_id": "47.70"
+    },
+    {
+      "id": "47.81",
+      "name": "Retail sale via stalls and markets of food, beverages and tobacco products",
+      "parent_id": "47.80"
+    },
+    {
+      "id": "47.82",
+      "name": "Retail sale via stalls and markets of textiles, clothing and footwear",
+      "parent_id": "47.80"
+    },
+    {
+      "id": "47.89",
+      "name": "Retail sale via stalls and markets of other goods",
+      "parent_id": "47.80"
+    },
+    {
+      "id": "47.91",
+      "name": "Retail sale via mail order houses or via Internet",
+      "parent_id": "47.90"
+    },
+    {
+      "id": "47.99",
+      "name": "Other retail sale not in stores, stalls or markets",
+      "parent_id": "47.90"
+    },
+    {
+      "id": "49.31",
+      "name": "Urban and suburban passenger land transport",
+      "parent_id": "49.30"
+    },
+    {
+      "id": "49.32",
+      "name": "Taxi operation",
+      "parent_id": "49.30"
+    },
+    {
+      "id": "49.39",
+      "name": "Other passenger land transport n.e.c.",
+      "parent_id": "49.30"
+    },
+    {
+      "id": "49.41",
+      "name": "Freight transport by road",
+      "parent_id": "49.40"
+    },
+    {
+      "id": "49.42",
+      "name": "Removal services",
+      "parent_id": "49.40"
+    },
+    {
+      "id": "50.11",
+      "name": "Scheduled sea and coastal passenger water transport",
+      "parent_id": "50.10"
+    },
+    {
+      "id": "50.12",
+      "name": "Non-scheduled sea and coastal passenger water transport",
+      "parent_id": "50.10"
+    },
+    {
+      "id": "50.21",
+      "name": "Scheduled sea and coastal freight water transport",
+      "parent_id": "50.20"
+    },
+    {
+      "id": "50.22",
+      "name": "Non-scheduled sea and coastal freight water transport",
+      "parent_id": "50.20"
+    },
+    {
+      "id": "50.31",
+      "name": "Scheduled inland passenger water transport",
+      "parent_id": "50.30"
+    },
+    {
+      "id": "50.32",
+      "name": "Non-scheduled inland passenger water transport",
+      "parent_id": "50.30"
+    },
+    {
+      "id": "50.41",
+      "name": "Scheduled inland freight water transport",
+      "parent_id": "50.40"
+    },
+    {
+      "id": "50.42",
+      "name": "Non-scheduled inland freight water transport",
+      "parent_id": "50.40"
+    },
+    {
+      "id": "51.11",
+      "name": "Scheduled passenger air transport",
+      "parent_id": "51.10"
+    },
+    {
+      "id": "51.12",
+      "name": "Non-scheduled passenger air transport",
+      "parent_id": "51.10"
+    },
+    {
+      "id": "51.21",
+      "name": "Freight air transport",
+      "parent_id": "51.20"
+    },
+    {
+      "id": "51.22",
+      "name": "Space transport",
+      "parent_id": "51.20"
+    },
+    {
+      "id": "52.21",
+      "name": "Service activities incidental to land transportation",
+      "parent_id": "52.20"
+    },
+    {
+      "id": "52.22",
+      "name": "Service activities incidental to water transportation",
+      "parent_id": "52.20"
+    },
+    {
+      "id": "52.23",
+      "name": "Service activities incidental to air transportation",
+      "parent_id": "52.20"
+    },
+    {
+      "id": "52.24",
+      "name": "Cargo handling",
+      "parent_id": "52.20"
+    },
+    {
+      "id": "52.29",
+      "name": "Other transportation support activities",
+      "parent_id": "52.20"
+    },
+    {
+      "id": "53.21",
+      "name": "Other postal activities",
+      "parent_id": "53.20"
+    },
+    {
+      "id": "53.22",
+      "name": "Courier activities",
+      "parent_id": "53.20"
+    },
+    {
+      "id": "53.23",
+      "name": "Newspaper distribution",
+      "parent_id": "53.20"
+    },
+    {
+      "id": "55.11",
+      "name": "Hotels with restaurant except conference centres",
+      "parent_id": "55.10"
+    },
+    {
+      "id": "55.12",
+      "name": "Lodging activities of conference centres",
+      "parent_id": "55.10"
+    },
+    {
+      "id": "55.13",
+      "name": "Hotels without restaurant",
+      "parent_id": "55.10"
+    },
+    {
+      "id": "55.21",
+      "name": "Youth hostels",
+      "parent_id": "55.20"
+    },
+    {
+      "id": "55.22",
+      "name": "Other short-stay accommodation",
+      "parent_id": "55.20"
+    },
+    {
+      "id": "56.21",
+      "name": "Event catering activities",
+      "parent_id": "56.20"
+    },
+    {
+      "id": "56.29",
+      "name": "Other food service activities",
+      "parent_id": "56.20"
+    },
+    {
+      "id": "58.11",
+      "name": "Book publishing",
+      "parent_id": "58.10"
+    },
+    {
+      "id": "58.12",
+      "name": "Publishing of directories and mailing lists",
+      "parent_id": "58.10"
+    },
+    {
+      "id": "58.13",
+      "name": "Publishing of newspapers",
+      "parent_id": "58.10"
+    },
+    {
+      "id": "58.14",
+      "name": "Publishing of journals and periodicals",
+      "parent_id": "58.10"
+    },
+    {
+      "id": "58.19",
+      "name": "Other publishing activities",
+      "parent_id": "58.10"
+    },
+    {
+      "id": "58.21",
+      "name": "Publishing of computer games",
+      "parent_id": "58.20"
+    },
+    {
+      "id": "58.29",
+      "name": "Other software publishing",
+      "parent_id": "58.20"
+    },
+    {
+      "id": "59.11",
+      "name": "Motion picture, video and television programme production activities",
+      "parent_id": "59.10"
+    },
+    {
+      "id": "59.12",
+      "name": "Motion picture, video and television programme post-production activities",
+      "parent_id": "59.10"
+    },
+    {
+      "id": "59.13",
+      "name": "Motion picture, video and television programme distribution activities",
+      "parent_id": "59.10"
+    },
+    {
+      "id": "59.14",
+      "name": "Motion picture projection activities",
+      "parent_id": "59.10"
+    },
+    {
+      "id": "63.11",
+      "name": "Data processing, hosting and related activities",
+      "parent_id": "63.10"
+    },
+    {
+      "id": "63.12",
+      "name": "Web portals",
+      "parent_id": "63.10"
+    },
+    {
+      "id": "63.91",
+      "name": "News agency activities",
+      "parent_id": "63.90"
+    },
+    {
+      "id": "63.99",
+      "name": "Other information service activities n.e.c.",
+      "parent_id": "63.90"
+    },
+    {
+      "id": "64.11",
+      "name": "Central banking",
+      "parent_id": "64.10"
+    },
+    {
+      "id": "64.19",
+      "name": "Other monetary intermediation",
+      "parent_id": "64.10"
+    },
+    {
+      "id": "64.21",
+      "name": "Activities of financial holding companies",
+      "parent_id": "64.20"
+    },
+    {
+      "id": "64.22",
+      "name": "Activities of non-financial holding companies",
+      "parent_id": "64.20"
+    },
+    {
+      "id": "64.31",
+      "name": "Investment funds",
+      "parent_id": "64.30"
+    },
+    {
+      "id": "64.39",
+      "name": "Other trusts, funds and similar financial entities",
+      "parent_id": "64.30"
+    },
+    {
+      "id": "64.91",
+      "name": "Financial leasing",
+      "parent_id": "64.90"
+    },
+    {
+      "id": "64.92",
+      "name": "Other credit granting",
+      "parent_id": "64.90"
+    },
+    {
+      "id": "64.99",
+      "name": "Other financial service activities, except insurance and pension funding n.e.c.",
+      "parent_id": "64.90"
+    },
+    {
+      "id": "65.11",
+      "name": "Life insurance",
+      "parent_id": "65.10"
+    },
+    {
+      "id": "65.12",
+      "name": "Non-life insurance",
+      "parent_id": "65.10"
+    },
+    {
+      "id": "66.11",
+      "name": "Administration of financial markets",
+      "parent_id": "66.10"
+    },
+    {
+      "id": "66.12",
+      "name": "Security and commodity contracts brokerage",
+      "parent_id": "66.10"
+    },
+    {
+      "id": "66.19",
+      "name": "Other activities auxiliary to financial services, except insurance and pension funding",
+      "parent_id": "66.10"
+    },
+    {
+      "id": "66.21",
+      "name": "Risk and damage evaluation",
+      "parent_id": "66.20"
+    },
+    {
+      "id": "66.22",
+      "name": "Activities of insurance agents and brokers",
+      "parent_id": "66.20"
+    },
+    {
+      "id": "66.29",
+      "name": "Other activities auxiliary to insurance and pension funding",
+      "parent_id": "66.20"
+    },
+    {
+      "id": "66.31",
+      "name": "Investment fund management activities",
+      "parent_id": "66.30"
+    },
+    {
+      "id": "66.39",
+      "name": "Other fund management activities",
+      "parent_id": "66.30"
+    },
+    {
+      "id": "68.21",
+      "name": "Renting and operating of own or leased dwelllings",
+      "parent_id": "68.20"
+    },
+    {
+      "id": "68.22",
+      "name": "Renting and operating of own or leased industrial premises",
+      "parent_id": "68.20"
+    },
+    {
+      "id": "68.23",
+      "name": "Renting and operating of own or leased other premises",
+      "parent_id": "68.20"
+    },
+    {
+      "id": "68.24",
+      "name": "Property management of tenant-owners' associations",
+      "parent_id": "68.20"
+    },
+    {
+      "id": "68.29",
+      "name": "Other renting and operating of own or leased real estate",
+      "parent_id": "68.20"
+    },
+    {
+      "id": "68.31",
+      "name": "Real estate agencies",
+      "parent_id": "68.30"
+    },
+    {
+      "id": "68.32",
+      "name": "Management of real estate on a fee or contract basis",
+      "parent_id": "68.30"
+    },
+    {
+      "id": "69.11",
+      "name": "Legal advisory and representation activities of solicitor's firms",
+      "parent_id": "69.10"
+    },
+    {
+      "id": "69.12",
+      "name": "Other legal advisory activities",
+      "parent_id": "69.10"
+    },
+    {
+      "id": "69.13",
+      "name": "Advisory activities concerning patents and copyrights",
+      "parent_id": "69.10"
+    },
+    {
+      "id": "69.21",
+      "name": "Accounting and bookkeeping activities",
+      "parent_id": "69.20"
+    },
+    {
+      "id": "69.22",
+      "name": "Auditing activities",
+      "parent_id": "69.20"
+    },
+    {
+      "id": "69.23",
+      "name": "Tax consultancy",
+      "parent_id": "69.20"
+    },
+    {
+      "id": "70.21",
+      "name": "Public relations and communication activities",
+      "parent_id": "70.20"
+    },
+    {
+      "id": "70.22",
+      "name": "Business and other management consultancy activities",
+      "parent_id": "70.20"
+    },
+    {
+      "id": "71.11",
+      "name": "Architectural activities",
+      "parent_id": "71.10"
+    },
+    {
+      "id": "71.12",
+      "name": "Engineering activities and related technical consultancy",
+      "parent_id": "71.10"
+    },
+    {
+      "id": "72.11",
+      "name": "Research and experimental development on biotechnology",
+      "parent_id": "72.10"
+    },
+    {
+      "id": "72.19",
+      "name": "Other research and experimental development on natural sciences and engineering",
+      "parent_id": "72.10"
+    },
+    {
+      "id": "73.11",
+      "name": "Advertising agencies",
+      "parent_id": "73.10"
+    },
+    {
+      "id": "73.12",
+      "name": "Media representation",
+      "parent_id": "73.10"
+    },
+    {
+      "id": "74.11",
+      "name": "Industrial and fashion design",
+      "parent_id": "74.10"
+    },
+    {
+      "id": "74.12",
+      "name": "Graphic design",
+      "parent_id": "74.10"
+    },
+    {
+      "id": "74.13",
+      "name": "Activities of interior decorators",
+      "parent_id": "74.10"
+    },
+    {
+      "id": "74.21",
+      "name": "Portrait photography",
+      "parent_id": "74.20"
+    },
+    {
+      "id": "74.22",
+      "name": "Advertising photography",
+      "parent_id": "74.20"
+    },
+    {
+      "id": "74.23",
+      "name": "Press and other photography",
+      "parent_id": "74.20"
+    },
+    {
+      "id": "74.24",
+      "name": "Photographic laboratory activities",
+      "parent_id": "74.20"
+    },
+    {
+      "id": "77.11",
+      "name": "Renting and leasing of cars and light motor vehicles",
+      "parent_id": "77.10"
+    },
+    {
+      "id": "77.12",
+      "name": "Renting and leasing of trucks",
+      "parent_id": "77.10"
+    },
+    {
+      "id": "77.21",
+      "name": "Renting and leasing of recreational and sports goods",
+      "parent_id": "77.20"
+    },
+    {
+      "id": "77.22",
+      "name": "Renting of video tapes and disks",
+      "parent_id": "77.20"
+    },
+    {
+      "id": "77.29",
+      "name": "Renting and leasing of other personal and household goods",
+      "parent_id": "77.20"
+    },
+    {
+      "id": "77.31",
+      "name": "Renting and leasing of agricultural machinery and equipment",
+      "parent_id": "77.30"
+    },
+    {
+      "id": "77.32",
+      "name": "Renting and leasing of construction and civil engineering machinery and equipment",
+      "parent_id": "77.30"
+    },
+    {
+      "id": "77.33",
+      "name": "Renting and leasing of office machinery and equipment (including computers)",
+      "parent_id": "77.30"
+    },
+    {
+      "id": "77.34",
+      "name": "Renting and leasing of water transport equipment",
+      "parent_id": "77.30"
+    },
+    {
+      "id": "77.35",
+      "name": "Renting and leasing of air transport equipment",
+      "parent_id": "77.30"
+    },
+    {
+      "id": "77.39",
+      "name": "Renting and leasing of other machinery, equipment and tangible goods n.e.c.",
+      "parent_id": "77.30"
+    },
+    {
+      "id": "79.11",
+      "name": "Travel agency activities",
+      "parent_id": "79.10"
+    },
+    {
+      "id": "79.12",
+      "name": "Tour operator activities",
+      "parent_id": "79.10"
+    },
+    {
+      "id": "81.21",
+      "name": "General cleaning of buildings",
+      "parent_id": "81.20"
+    },
+    {
+      "id": "81.22",
+      "name": "Other building and industrial cleaning activities",
+      "parent_id": "81.20"
+    },
+    {
+      "id": "81.29",
+      "name": "Other cleaning activities",
+      "parent_id": "81.20"
+    },
+    {
+      "id": "82.11",
+      "name": "Combined office administrative service activities",
+      "parent_id": "82.10"
+    },
+    {
+      "id": "82.19",
+      "name": "Photocopying, document preparation and other specialised office support activities",
+      "parent_id": "82.10"
+    },
+    {
+      "id": "82.91",
+      "name": "Activities of collection agencies and credit bureaus",
+      "parent_id": "82.90"
+    },
+    {
+      "id": "82.92",
+      "name": "Packaging activities",
+      "parent_id": "82.90"
+    },
+    {
+      "id": "82.99",
+      "name": "Other business support service activities n.e.c.",
+      "parent_id": "82.90"
+    },
+    {
+      "id": "84.11",
+      "name": "General public administration activities",
+      "parent_id": "84.10"
+    },
+    {
+      "id": "84.12",
+      "name": "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",
+      "parent_id": "84.10"
+    },
+    {
+      "id": "84.13",
+      "name": "Regulation of and contribution to more efficient operation of businesses",
+      "parent_id": "84.10"
+    },
+    {
+      "id": "84.21",
+      "name": "Foreign affairs",
+      "parent_id": "84.20"
+    },
+    {
+      "id": "84.22",
+      "name": "Defence activities",
+      "parent_id": "84.20"
+    },
+    {
+      "id": "84.23",
+      "name": "Justice and judicial activities",
+      "parent_id": "84.20"
+    },
+    {
+      "id": "84.24",
+      "name": "Public order and safety activities",
+      "parent_id": "84.20"
+    },
+    {
+      "id": "84.25",
+      "name": "Fire service activities",
+      "parent_id": "84.20"
+    },
+    {
+      "id": "85.21",
+      "name": "Compulsory comprehensive school education and pre-school class",
+      "parent_id": "85.20"
+    },
+    {
+      "id": "85.22",
+      "name": "Special school primary education",
+      "parent_id": "85.20"
+    },
+    {
+      "id": "85.31",
+      "name": "General secondary education etc.",
+      "parent_id": "85.30"
+    },
+    {
+      "id": "85.32",
+      "name": "Technical and vocational secondary education etc.",
+      "parent_id": "85.30"
+    },
+    {
+      "id": "85.41",
+      "name": "Post-secondary non-tertiary education",
+      "parent_id": "85.40"
+    },
+    {
+      "id": "85.42",
+      "name": "Tertiary education",
+      "parent_id": "85.40"
+    },
+    {
+      "id": "85.51",
+      "name": "Sports and recreation education",
+      "parent_id": "85.50"
+    },
+    {
+      "id": "85.52",
+      "name": "Cultural education",
+      "parent_id": "85.50"
+    },
+    {
+      "id": "85.53",
+      "name": "Driving school activities",
+      "parent_id": "85.50"
+    },
+    {
+      "id": "85.59",
+      "name": "Other education n.e.c.",
+      "parent_id": "85.50"
+    },
+    {
+      "id": "86.11",
+      "name": "Hospital primary health activities",
+      "parent_id": "86.10"
+    },
+    {
+      "id": "86.12",
+      "name": "Specialised hospital somatic activities",
+      "parent_id": "86.10"
+    },
+    {
+      "id": "86.13",
+      "name": "Specialised hospital psychiatric activities",
+      "parent_id": "86.10"
+    },
+    {
+      "id": "86.21",
+      "name": "General medical practice activities",
+      "parent_id": "86.20"
+    },
+    {
+      "id": "86.22",
+      "name": "Specialist medical practice activities",
+      "parent_id": "86.20"
+    },
+    {
+      "id": "86.23",
+      "name": "Dental practice activities",
+      "parent_id": "86.20"
+    },
+    {
+      "id": "86.91",
+      "name": "Activities of medical laboratories etc.",
+      "parent_id": "86.90"
+    },
+    {
+      "id": "86.92",
+      "name": "Ambulance transports and ambulance health care activities",
+      "parent_id": "86.90"
+    },
+    {
+      "id": "86.93",
+      "name": "Primary health activities, not physicians",
+      "parent_id": "86.90"
+    },
+    {
+      "id": "86.94",
+      "name": "Activities of dental hygienists",
+      "parent_id": "86.90"
+    },
+    {
+      "id": "86.95",
+      "name": "Activities of physiotherapists etc.",
+      "parent_id": "86.90"
+    },
+    {
+      "id": "86.99",
+      "name": "Other human health activities n.e.c.",
+      "parent_id": "86.90"
+    },
+    {
+      "id": "87.21",
+      "name": "Care in special forms of accommodation for persons with mental retardation and mental disability",
+      "parent_id": "87.20"
+    },
+    {
+      "id": "87.22",
+      "name": "Care in special forms of accommodation for children and young people with substance abuse problems",
+      "parent_id": "87.20"
+    },
+    {
+      "id": "87.23",
+      "name": "Care in special forms of accommodation for adults with substance abuse problems",
+      "parent_id": "87.20"
+    },
+    {
+      "id": "87.31",
+      "name": "Care in special forms of accommodation for the elderly",
+      "parent_id": "87.30"
+    },
+    {
+      "id": "87.32",
+      "name": "Care in special forms of accommodation for disabled persons",
+      "parent_id": "87.30"
+    },
+    {
+      "id": "87.91",
+      "name": "Twenty-four hours care with accommodation for children and young people with social problems",
+      "parent_id": "87.90"
+    },
+    {
+      "id": "87.92",
+      "name": "Care with accommodation for adults n.e.c.",
+      "parent_id": "87.90"
+    },
+    {
+      "id": "88.11",
+      "name": "Social work activities without accommodation for the elderly",
+      "parent_id": "88.10"
+    },
+    {
+      "id": "88.12",
+      "name": "Social work activities without accommodation for disabled persons",
+      "parent_id": "88.10"
+    },
+    {
+      "id": "88.91",
+      "name": "Child day-care activities",
+      "parent_id": "88.90"
+    },
+    {
+      "id": "88.99",
+      "name": "Other social work activities without accommodation n.e.c.",
+      "parent_id": "88.90"
+    },
+    {
+      "id": "91.11",
+      "name": "Library activities",
+      "parent_id": "91.10"
+    },
+    {
+      "id": "91.12",
+      "name": "Archives activities",
+      "parent_id": "91.10"
+    },
+    {
+      "id": "93.11",
+      "name": "Operation of sports facilities",
+      "parent_id": "93.10"
+    },
+    {
+      "id": "93.12",
+      "name": "Activities of sport clubs",
+      "parent_id": "93.10"
+    },
+    {
+      "id": "93.13",
+      "name": "Fitness facilities",
+      "parent_id": "93.10"
+    },
+    {
+      "id": "93.19",
+      "name": "Other sports activities",
+      "parent_id": "93.10"
+    },
+    {
+      "id": "93.21",
+      "name": "Activities of amusement parks and theme parks",
+      "parent_id": "93.20"
+    },
+    {
+      "id": "93.29",
+      "name": "Other amusement and recreation activities",
+      "parent_id": "93.20"
+    },
+    {
+      "id": "94.11",
+      "name": "Activities of business and employers membership organisations",
+      "parent_id": "94.10"
+    },
+    {
+      "id": "94.12",
+      "name": "Activities of professional membership organisations",
+      "parent_id": "94.10"
+    },
+    {
+      "id": "94.91",
+      "name": "Activities of religious organisations",
+      "parent_id": "94.90"
+    },
+    {
+      "id": "94.92",
+      "name": "Activities of political organisations",
+      "parent_id": "94.90"
+    },
+    {
+      "id": "94.99",
+      "name": "Activities of other membership organisations n.e.c.",
+      "parent_id": "94.90"
+    },
+    {
+      "id": "95.11",
+      "name": "Repair of computers and peripheral equipment",
+      "parent_id": "95.10"
+    },
+    {
+      "id": "95.12",
+      "name": "Repair of communication equipment",
+      "parent_id": "95.10"
+    },
+    {
+      "id": "95.21",
+      "name": "Repair of consumer electronics",
+      "parent_id": "95.20"
+    },
+    {
+      "id": "95.22",
+      "name": "Repair of household appliances and home and garden equipment",
+      "parent_id": "95.20"
+    },
+    {
+      "id": "95.23",
+      "name": "Repair of footwear and leather goods",
+      "parent_id": "95.20"
+    },
+    {
+      "id": "95.24",
+      "name": "Repair of furniture and home furnishings",
+      "parent_id": "95.20"
+    },
+    {
+      "id": "95.25",
+      "name": "Repair of watches, clocks and jewellery",
+      "parent_id": "95.20"
+    },
+    {
+      "id": "95.29",
+      "name": "Repair of other personal and household goods",
+      "parent_id": "95.20"
+    },
+    {
+      "id": "96.11",
+      "name": "Washing and (dry-)cleaning for businesses and institutions",
+      "parent_id": "96.10"
+    },
+    {
+      "id": "96.12",
+      "name": "Washing and (dry-)cleaning for households",
+      "parent_id": "96.10"
+    },
+    {
+      "id": "96.21",
+      "name": "Hairdressing",
+      "parent_id": "96.20"
+    },
+    {
+      "id": "96.22",
+      "name": "Beauty treatment",
+      "parent_id": "96.20"
+    },
+    {
+      "id": "01.131",
+      "name": "Growing of potatoes",
+      "parent_id": "01.13"
+    },
+    {
+      "id": "01.132",
+      "name": "Growing of sugar beet",
+      "parent_id": "01.13"
+    },
+    {
+      "id": "01.133",
+      "name": "Growing of vegetables in the open",
+      "parent_id": "01.13"
+    },
+    {
+      "id": "01.134",
+      "name": "Growing of vegetables in greenhouses",
+      "parent_id": "01.13"
+    },
+    {
+      "id": "01.135",
+      "name": "Growing of mushrooms etc.",
+      "parent_id": "01.13"
+    },
+    {
+      "id": "01.191",
+      "name": "Growing of flowers and ornamental plants in greenhouses",
+      "parent_id": "01.19"
+    },
+    {
+      "id": "01.199",
+      "name": "Growing of other non-perennial crops n.e.c.",
+      "parent_id": "01.19"
+    },
+    {
+      "id": "01.461",
+      "name": "Raising of piglets",
+      "parent_id": "01.46"
+    },
+    {
+      "id": "01.462",
+      "name": "Raising of swine for slaughter",
+      "parent_id": "01.46"
+    },
+    {
+      "id": "01.471",
+      "name": "Egg production",
+      "parent_id": "01.47"
+    },
+    {
+      "id": "01.472",
+      "name": "Raising of poultry",
+      "parent_id": "01.47"
+    },
+    {
+      "id": "01.491",
+      "name": "Reindeer husbandry",
+      "parent_id": "01.49"
+    },
+    {
+      "id": "01.492",
+      "name": "Breeding of pet animals",
+      "parent_id": "01.49"
+    },
+    {
+      "id": "01.499",
+      "name": "Raising of other animals n.e.c.",
+      "parent_id": "01.49"
+    },
+    {
+      "id": "03.111",
+      "name": "Marine trawling",
+      "parent_id": "03.11"
+    },
+    {
+      "id": "03.119",
+      "name": "Other marine fishing",
+      "parent_id": "03.11"
+    },
+    {
+      "id": "10.111",
+      "name": "Livestock slaughtering",
+      "parent_id": "10.11"
+    },
+    {
+      "id": "10.112",
+      "name": "Processing and preserving of meat in cuts",
+      "parent_id": "10.11"
+    },
+    {
+      "id": "10.511",
+      "name": "Cheese production",
+      "parent_id": "10.51"
+    },
+    {
+      "id": "10.519",
+      "name": "Other dairy production",
+      "parent_id": "10.51"
+    },
+    {
+      "id": "10.611",
+      "name": "Production of flour",
+      "parent_id": "10.61"
+    },
+    {
+      "id": "10.612",
+      "name": "Manufacture of breakfast cereals, blended flour mixes and other prepared grain mill products",
+      "parent_id": "10.61"
+    },
+    {
+      "id": "10.721",
+      "name": "Manufacture of crispbread",
+      "parent_id": "10.72"
+    },
+    {
+      "id": "10.722",
+      "name": "Manufacture of rusks, biscuits and preserved pastry goods and cakes",
+      "parent_id": "10.72"
+    },
+    {
+      "id": "10.821",
+      "name": "Manufacture of sugar confectionery",
+      "parent_id": "10.82"
+    },
+    {
+      "id": "10.822",
+      "name": "Manufacture of cocoa and chocolate confectionery",
+      "parent_id": "10.82"
+    },
+    {
+      "id": "13.921",
+      "name": "Manufacture of curtains, bed linen and other linen goods",
+      "parent_id": "13.92"
+    },
+    {
+      "id": "13.922",
+      "name": "Manufacture of tarpaulins, tents, sails etc.",
+      "parent_id": "13.92"
+    },
+    {
+      "id": "16.231",
+      "name": "Manufacture of prefabricated wooden buildings",
+      "parent_id": "16.23"
+    },
+    {
+      "id": "16.232",
+      "name": "Manufacture of wooden doors",
+      "parent_id": "16.23"
+    },
+    {
+      "id": "16.233",
+      "name": "Manufacture of wooden windows",
+      "parent_id": "16.23"
+    },
+    {
+      "id": "16.239",
+      "name": "Manufacture of other builders' carpentry and joinery n.e.c.",
+      "parent_id": "16.23"
+    },
+    {
+      "id": "16.291",
+      "name": "Manufacture of wood fuels",
+      "parent_id": "16.29"
+    },
+    {
+      "id": "16.292",
+      "name": "Manufacture of other products of wood",
+      "parent_id": "16.29"
+    },
+    {
+      "id": "16.293",
+      "name": "Manufacture of articles of cork, straw and plaiting materials",
+      "parent_id": "16.29"
+    },
+    {
+      "id": "17.111",
+      "name": "Manufacture of mechanical or semi-chemical pulp",
+      "parent_id": "17.11"
+    },
+    {
+      "id": "17.112",
+      "name": "Manufacture of sulphate pulp",
+      "parent_id": "17.11"
+    },
+    {
+      "id": "17.113",
+      "name": "Manufacture of sulphite pulp",
+      "parent_id": "17.11"
+    },
+    {
+      "id": "17.121",
+      "name": "Manufacture of newsprint",
+      "parent_id": "17.12"
+    },
+    {
+      "id": "17.122",
+      "name": "Manufacture of other printing paper",
+      "parent_id": "17.12"
+    },
+    {
+      "id": "17.123",
+      "name": "Manufacture of kraft paper and paperboard",
+      "parent_id": "17.12"
+    },
+    {
+      "id": "17.129",
+      "name": "Manufacture of other paper and paperboard",
+      "parent_id": "17.12"
+    },
+    {
+      "id": "17.211",
+      "name": "Manufacture of corrugated paper and paperboard and corrugated board containers",
+      "parent_id": "17.21"
+    },
+    {
+      "id": "17.219",
+      "name": "Manufacture of other containers of paper and paperboard",
+      "parent_id": "17.21"
+    },
+    {
+      "id": "18.121",
+      "name": "Printing of periodicals",
+      "parent_id": "18.12"
+    },
+    {
+      "id": "18.122",
+      "name": "Book printing and other printing",
+      "parent_id": "18.12"
+    },
+    {
+      "id": "23.991",
+      "name": "Manufacture of stone and mineral wool products",
+      "parent_id": "23.99"
+    },
+    {
+      "id": "23.999",
+      "name": "Manufacture of various other non-metallic mineral products n.e.c.",
+      "parent_id": "23.99"
+    },
+    {
+      "id": "25.991",
+      "name": "Manufacture of sinks, sanitary ware etc. of metal for construction purposes",
+      "parent_id": "25.99"
+    },
+    {
+      "id": "25.999",
+      "name": "Manufacture of various other fabricated metal products n.e.c.",
+      "parent_id": "25.99"
+    },
+    {
+      "id": "38.311",
+      "name": "Dismantling of car wrecks",
+      "parent_id": "38.31"
+    },
+    {
+      "id": "38.312",
+      "name": "Dismantling of electric and electronic equipment",
+      "parent_id": "38.31"
+    },
+    {
+      "id": "38.319",
+      "name": "Dismantling of other wrecks",
+      "parent_id": "38.31"
+    },
+    {
+      "id": "43.221",
+      "name": "Installation of heating and sanitary equipment",
+      "parent_id": "43.22"
+    },
+    {
+      "id": "43.222",
+      "name": "Installation of ventilation equipment",
+      "parent_id": "43.22"
+    },
+    {
+      "id": "43.223",
+      "name": "Installation of refrigeration and freezing equipment",
+      "parent_id": "43.22"
+    },
+    {
+      "id": "43.229",
+      "name": "Other plumbing",
+      "parent_id": "43.22"
+    },
+    {
+      "id": "43.341",
+      "name": "Painting",
+      "parent_id": "43.34"
+    },
+    {
+      "id": "43.342",
+      "name": "Glazing",
+      "parent_id": "43.34"
+    },
+    {
+      "id": "43.911",
+      "name": "Erection of sheet-metal roof covering",
+      "parent_id": "43.91"
+    },
+    {
+      "id": "43.912",
+      "name": "Erection of other roof covering and frames",
+      "parent_id": "43.91"
+    },
+    {
+      "id": "43.991",
+      "name": "Renting of construction or demolition equipment with operator",
+      "parent_id": "43.99"
+    },
+    {
+      "id": "43.999",
+      "name": "Various other specialised construction activities n.e.c.",
+      "parent_id": "43.99"
+    },
+    {
+      "id": "45.191",
+      "name": "Sale of lorries, buses and specialised motor vehicles",
+      "parent_id": "45.19"
+    },
+    {
+      "id": "45.192",
+      "name": "Sale of caravans, motor homes, trailers and semi-trailers",
+      "parent_id": "45.19"
+    },
+    {
+      "id": "46.141",
+      "name": "Agents involved in the sale of machinery, industrial equipment, ships and aircraft except office machinery and computer equipment",
+      "parent_id": "46.14"
+    },
+    {
+      "id": "46.142",
+      "name": "Agents involved in the sale of office machinery and computer equipment",
+      "parent_id": "46.14"
+    },
+    {
+      "id": "46.431",
+      "name": "Wholesale of electrical household appliances",
+      "parent_id": "46.43"
+    },
+    {
+      "id": "46.432",
+      "name": "Wholesale of radio, television and video equipment",
+      "parent_id": "46.43"
+    },
+    {
+      "id": "46.433",
+      "name": "Wholesale of recorded audio and video tapes, cds and dvds",
+      "parent_id": "46.43"
+    },
+    {
+      "id": "46.434",
+      "name": "Wholesale of electrical equipment",
+      "parent_id": "46.43"
+    },
+    {
+      "id": "46.435",
+      "name": "Wholesale of photographic and optical goods",
+      "parent_id": "46.43"
+    },
+    {
+      "id": "46.491",
+      "name": "Wholesale of sporting equipment",
+      "parent_id": "46.49"
+    },
+    {
+      "id": "46.492",
+      "name": "Wholesale of stationary and other office goods",
+      "parent_id": "46.49"
+    },
+    {
+      "id": "46.499",
+      "name": "Wholesale of other household goods n.e.c.",
+      "parent_id": "46.49"
+    },
+    {
+      "id": "46.521",
+      "name": "Wholesale of electronic components",
+      "parent_id": "46.52"
+    },
+    {
+      "id": "46.522",
+      "name": "Wholesale of telecommunications equipment and parts",
+      "parent_id": "46.52"
+    },
+    {
+      "id": "46.691",
+      "name": "Wholesale of measuring and precision instruments",
+      "parent_id": "46.69"
+    },
+    {
+      "id": "46.692",
+      "name": "Wholesale of computerized materials handling equipment",
+      "parent_id": "46.69"
+    },
+    {
+      "id": "46.699",
+      "name": "Wholesale of other machinery and equipment n.e.c.",
+      "parent_id": "46.69"
+    },
+    {
+      "id": "46.731",
+      "name": "Wholesale of wood and other construction materials",
+      "parent_id": "46.73"
+    },
+    {
+      "id": "46.732",
+      "name": "Wholesale of sanitary equipment",
+      "parent_id": "46.73"
+    },
+    {
+      "id": "46.741",
+      "name": "Wholesale of hardware",
+      "parent_id": "46.74"
+    },
+    {
+      "id": "46.742",
+      "name": "Wholesale of plumbing and heating equipment",
+      "parent_id": "46.74"
+    },
+    {
+      "id": "46.761",
+      "name": "Wholesale of industry supplies",
+      "parent_id": "46.76"
+    },
+    {
+      "id": "46.762",
+      "name": "Wholesale of packaging materials",
+      "parent_id": "46.76"
+    },
+    {
+      "id": "46.769",
+      "name": "Wholesale of other intermediate products n.e.c.",
+      "parent_id": "46.76"
+    },
+    {
+      "id": "46.771",
+      "name": "Wholesale in car wrecks",
+      "parent_id": "46.77"
+    },
+    {
+      "id": "46.772",
+      "name": "Wholesale of metal waste and scrap",
+      "parent_id": "46.77"
+    },
+    {
+      "id": "46.773",
+      "name": "Wholesale of non-metal waste and scrap",
+      "parent_id": "46.77"
+    },
+    {
+      "id": "47.111",
+      "name": "Retail sale in department stores and the like with food, beverages or tobacco predominating",
+      "parent_id": "47.11"
+    },
+    {
+      "id": "47.112",
+      "name": "Retail sale in other non-specialised stores with food, beverages or tobacco predominating",
+      "parent_id": "47.11"
+    },
+    {
+      "id": "47.191",
+      "name": "Other retail sale in department stores and the like",
+      "parent_id": "47.19"
+    },
+    {
+      "id": "47.199",
+      "name": "Other retail sale in non-specialised stores n.e.c.",
+      "parent_id": "47.19"
+    },
+    {
+      "id": "47.241",
+      "name": "Retail sale of bread, cakes and flour confectionery in specialised stores",
+      "parent_id": "47.24"
+    },
+    {
+      "id": "47.242",
+      "name": "Retail sale of sugar confectionery in specialised stores",
+      "parent_id": "47.24"
+    },
+    {
+      "id": "47.291",
+      "name": "Retail sale of health foods in specialised stores",
+      "parent_id": "47.29"
+    },
+    {
+      "id": "47.299",
+      "name": "Other retail sale of food in specialised stores n.e.c.",
+      "parent_id": "47.29"
+    },
+    {
+      "id": "47.521",
+      "name": "Retail sale of wood and other building materials in specialised stores",
+      "parent_id": "47.52"
+    },
+    {
+      "id": "47.522",
+      "name": "Retail sale of plumbing and heating equipment in specialised stores",
+      "parent_id": "47.52"
+    },
+    {
+      "id": "47.523",
+      "name": "Retail sale of paints in specialised stores",
+      "parent_id": "47.52"
+    },
+    {
+      "id": "47.531",
+      "name": "Retail sale of carpets, rugs, wall and floor coverings in specialised stores",
+      "parent_id": "47.53"
+    },
+    {
+      "id": "47.532",
+      "name": "Retail sale of home furnishing textiles in specialised stores",
+      "parent_id": "47.53"
+    },
+    {
+      "id": "47.591",
+      "name": "Retail sale of home furniture in specialised stores",
+      "parent_id": "47.59"
+    },
+    {
+      "id": "47.592",
+      "name": "Retail sale of office furniture in specialised stores",
+      "parent_id": "47.59"
+    },
+    {
+      "id": "47.593",
+      "name": "Retail sale of glassware, china and kitchenware in specialised stores",
+      "parent_id": "47.59"
+    },
+    {
+      "id": "47.594",
+      "name": "Retail sale of electrical fittings in specialised stores",
+      "parent_id": "47.59"
+    },
+    {
+      "id": "47.595",
+      "name": "Retail sale of musical instruments and music scores in specialised stores",
+      "parent_id": "47.59"
+    },
+    {
+      "id": "47.621",
+      "name": "Retail sale of newspapers in specialised stores",
+      "parent_id": "47.62"
+    },
+    {
+      "id": "47.622",
+      "name": "Retail sale of stationery in specialised stores",
+      "parent_id": "47.62"
+    },
+    {
+      "id": "47.641",
+      "name": "Retail sale of sporting equipment except bicycles in specialised stores",
+      "parent_id": "47.64"
+    },
+    {
+      "id": "47.642",
+      "name": "Retail sale of bicycles in specialised stores",
+      "parent_id": "47.64"
+    },
+    {
+      "id": "47.643",
+      "name": "Retail sale of boats and boating accessories in specialised stores",
+      "parent_id": "47.64"
+    },
+    {
+      "id": "47.711",
+      "name": "Retail sale of men's, women's and children's clothing in specialised stores",
+      "parent_id": "47.71"
+    },
+    {
+      "id": "47.712",
+      "name": "Retail sale of men's clothing in specialised stores",
+      "parent_id": "47.71"
+    },
+    {
+      "id": "47.713",
+      "name": "Retail sale of women's clothing in specialised stores",
+      "parent_id": "47.71"
+    },
+    {
+      "id": "47.714",
+      "name": "Retail sale of children's clothing in specialised stores",
+      "parent_id": "47.71"
+    },
+    {
+      "id": "47.715",
+      "name": "Retail sale of furs in specialised stores",
+      "parent_id": "47.71"
+    },
+    {
+      "id": "47.721",
+      "name": "Retail sale of footwear in specialised stores",
+      "parent_id": "47.72"
+    },
+    {
+      "id": "47.722",
+      "name": "Retail sale of leather goods in specialised stores",
+      "parent_id": "47.72"
+    },
+    {
+      "id": "47.761",
+      "name": "Retail sale of flowers, plants, seedsand fertilisers in specialised stores",
+      "parent_id": "47.76"
+    },
+    {
+      "id": "47.762",
+      "name": "Retail sale of  pet animals and pet food in specialised stores",
+      "parent_id": "47.76"
+    },
+    {
+      "id": "47.771",
+      "name": "Retail sale of watches and clocks in specialised stores",
+      "parent_id": "47.77"
+    },
+    {
+      "id": "47.772",
+      "name": "Retail sale of jewellery in specialised stores",
+      "parent_id": "47.77"
+    },
+    {
+      "id": "47.781",
+      "name": "Retail sale of spectacles and other optical goods except photographic equipment in specialised stores",
+      "parent_id": "47.78"
+    },
+    {
+      "id": "47.782",
+      "name": "Retail sale of photographic equipment in specialised stores",
+      "parent_id": "47.78"
+    },
+    {
+      "id": "47.783",
+      "name": "Retail sale of art in specialised stores; art gallery activities",
+      "parent_id": "47.78"
+    },
+    {
+      "id": "47.784",
+      "name": "Retail sale of coins and stamps in specialised stores",
+      "parent_id": "47.78"
+    },
+    {
+      "id": "47.789",
+      "name": "Other retail sale in specialised stores n.e.c.",
+      "parent_id": "47.78"
+    },
+    {
+      "id": "47.791",
+      "name": "Retail sale of antiques and second-hand books in stores",
+      "parent_id": "47.79"
+    },
+    {
+      "id": "47.792",
+      "name": "Retail sale of other second-hand goods in stores",
+      "parent_id": "47.79"
+    },
+    {
+      "id": "47.793",
+      "name": "Activities of auctioning houses",
+      "parent_id": "47.79"
+    },
+    {
+      "id": "47.911",
+      "name": "Non-specialised retail sale via mail order houses or via internet",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.912",
+      "name": "Retail sale of clothing via mail order houses or via internet",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.913",
+      "name": "Retail sale of books and other media goods via mail order houses or via internet",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.914",
+      "name": "Retail sale of computers and other electronic equipment via mail order houses or via internet",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.915",
+      "name": "Retail sale of sports and leisure goods via mail order houses or via internet",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.916",
+      "name": "Retail sale of household goods via mail order houses or via internet",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.917",
+      "name": "Internet retail auctions",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.919",
+      "name": "Other retail sale via mail order houses or via internet",
+      "parent_id": "47.91"
+    },
+    {
+      "id": "47.991",
+      "name": "Retail sale on commission",
+      "parent_id": "47.99"
+    },
+    {
+      "id": "47.992",
+      "name": "Ambulatory and occasional retail sale of food",
+      "parent_id": "47.99"
+    },
+    {
+      "id": "47.993",
+      "name": "Ambulatory and occasional retail sale of other goods",
+      "parent_id": "47.99"
+    },
+    {
+      "id": "47.994",
+      "name": "Auctions not in stores or internet",
+      "parent_id": "47.99"
+    },
+    {
+      "id": "47.999",
+      "name": "Retail sale not in stores, stalls or markets n.e.c.",
+      "parent_id": "47.99"
+    },
+    {
+      "id": "49.311",
+      "name": "Urban and suburban road passenger transport",
+      "parent_id": "49.31"
+    },
+    {
+      "id": "49.319",
+      "name": "Other urban and suburban passenger land transport",
+      "parent_id": "49.31"
+    },
+    {
+      "id": "51.211",
+      "name": "Scheduled freight air transport",
+      "parent_id": "51.21"
+    },
+    {
+      "id": "51.212",
+      "name": "Non-scheduled freight air transport",
+      "parent_id": "51.21"
+    },
+    {
+      "id": "52.211",
+      "name": "Towing incidental to land transportation",
+      "parent_id": "52.21"
+    },
+    {
+      "id": "52.219",
+      "name": "Other service activities incidental to land transportation",
+      "parent_id": "52.21"
+    },
+    {
+      "id": "52.241",
+      "name": "Harbour cargo handling",
+      "parent_id": "52.24"
+    },
+    {
+      "id": "52.249",
+      "name": "Other cargo handling",
+      "parent_id": "52.24"
+    },
+    {
+      "id": "56.291",
+      "name": "Canteens",
+      "parent_id": "56.29"
+    },
+    {
+      "id": "56.292",
+      "name": "Catering for hospitals",
+      "parent_id": "56.29"
+    },
+    {
+      "id": "56.293",
+      "name": "Catering for schools, welfare and other institutions",
+      "parent_id": "56.29"
+    },
+    {
+      "id": "56.294",
+      "name": "Catering for the transport sector",
+      "parent_id": "56.29"
+    },
+    {
+      "id": "56.299",
+      "name": "Other catering",
+      "parent_id": "56.29"
+    },
+    {
+      "id": "58.131",
+      "name": "Publishing of daily newspapers",
+      "parent_id": "58.13"
+    },
+    {
+      "id": "58.132",
+      "name": "Publishing of advertising newspapers",
+      "parent_id": "58.13"
+    },
+    {
+      "id": "64.991",
+      "name": "Activities of investment companies and venture capital companies",
+      "parent_id": "64.99"
+    },
+    {
+      "id": "64.992",
+      "name": "Trading in securities on own account",
+      "parent_id": "64.99"
+    },
+    {
+      "id": "64.993",
+      "name": "Trading in securities for a limited and closed group of owners",
+      "parent_id": "64.99"
+    },
+    {
+      "id": "64.999",
+      "name": "Various other financial service activities, except insurance and pension funding n.e.c.",
+      "parent_id": "64.99"
+    },
+    {
+      "id": "65.111",
+      "name": "Unit link insurance",
+      "parent_id": "65.11"
+    },
+    {
+      "id": "65.119",
+      "name": "Other life insurance",
+      "parent_id": "65.11"
+    },
+    {
+      "id": "71.121",
+      "name": "Construction and civil engineering activities and related technical consultancy",
+      "parent_id": "71.12"
+    },
+    {
+      "id": "71.122",
+      "name": "Industrial engineering activities and related technical consultancy",
+      "parent_id": "71.12"
+    },
+    {
+      "id": "71.123",
+      "name": "Electric engineering activities and related technical consultancy",
+      "parent_id": "71.12"
+    },
+    {
+      "id": "71.124",
+      "name": "Engineering activities and related technical consultancy in energy, environment, plumbing, heat and air-conditioning",
+      "parent_id": "71.12"
+    },
+    {
+      "id": "71.129",
+      "name": "Other engineering activities and related technical consultancy",
+      "parent_id": "71.12"
+    },
+    {
+      "id": "73.111",
+      "name": "Advertising agency activities",
+      "parent_id": "73.11"
+    },
+    {
+      "id": "73.112",
+      "name": "Delivery of advertising material",
+      "parent_id": "73.11"
+    },
+    {
+      "id": "73.119",
+      "name": "Other advertising activities",
+      "parent_id": "73.11"
+    },
+    {
+      "id": "81.221",
+      "name": "Other building cleaning activities",
+      "parent_id": "81.22"
+    },
+    {
+      "id": "81.222",
+      "name": "Chimney cleaning",
+      "parent_id": "81.22"
+    },
+    {
+      "id": "84.111",
+      "name": "Executive and legislative administration of central and local government",
+      "parent_id": "84.11"
+    },
+    {
+      "id": "84.112",
+      "name": "Inspection, control, permit and licensing activities of central and local government",
+      "parent_id": "84.11"
+    },
+    {
+      "id": "84.113",
+      "name": "Fiscal activities",
+      "parent_id": "84.11"
+    },
+    {
+      "id": "84.114",
+      "name": "Public dissemination of information",
+      "parent_id": "84.11"
+    },
+    {
+      "id": "84.115",
+      "name": "Supporting service activities for the government as a whole",
+      "parent_id": "84.11"
+    },
+    {
+      "id": "84.121",
+      "name": "Administration of primary and secondary education",
+      "parent_id": "84.12"
+    },
+    {
+      "id": "84.122",
+      "name": "Administration of higher education and research",
+      "parent_id": "84.12"
+    },
+    {
+      "id": "84.123",
+      "name": "Administration of health care",
+      "parent_id": "84.12"
+    },
+    {
+      "id": "84.124",
+      "name": "Administration of social welfare",
+      "parent_id": "84.12"
+    },
+    {
+      "id": "84.125",
+      "name": "Administration of culture, environment, housing etc. programmes",
+      "parent_id": "84.12"
+    },
+    {
+      "id": "84.131",
+      "name": "Administration of infrastructure programmes",
+      "parent_id": "84.13"
+    },
+    {
+      "id": "84.132",
+      "name": "Administration of programmes relating to agriculture, forestry and fishing",
+      "parent_id": "84.13"
+    },
+    {
+      "id": "84.133",
+      "name": "Administration of labour market programmes",
+      "parent_id": "84.13"
+    },
+    {
+      "id": "84.139",
+      "name": "Administration of other business, industry and trade programmes",
+      "parent_id": "84.13"
+    },
+    {
+      "id": "84.221",
+      "name": "Military defence activities",
+      "parent_id": "84.22"
+    },
+    {
+      "id": "84.222",
+      "name": "Defence support activities",
+      "parent_id": "84.22"
+    },
+    {
+      "id": "84.223",
+      "name": "Civil defence activities",
+      "parent_id": "84.22"
+    },
+    {
+      "id": "84.231",
+      "name": "Public prosecutor activities",
+      "parent_id": "84.23"
+    },
+    {
+      "id": "84.232",
+      "name": "Law court activities",
+      "parent_id": "84.23"
+    },
+    {
+      "id": "84.233",
+      "name": "Detention and rehabilitation of criminals",
+      "parent_id": "84.23"
+    },
+    {
+      "id": "85.311",
+      "name": "General secondary education",
+      "parent_id": "85.31"
+    },
+    {
+      "id": "85.312",
+      "name": "Municipal adult education",
+      "parent_id": "85.31"
+    },
+    {
+      "id": "85.321",
+      "name": "Technical and vocational secondary education",
+      "parent_id": "85.32"
+    },
+    {
+      "id": "85.322",
+      "name": "Special school secondary education",
+      "parent_id": "85.32"
+    },
+    {
+      "id": "85.323",
+      "name": "Other secondary education",
+      "parent_id": "85.32"
+    },
+    {
+      "id": "85.324",
+      "name": "School activities for occupational drivers",
+      "parent_id": "85.32"
+    },
+    {
+      "id": "85.521",
+      "name": "Activities of municipal culture schools",
+      "parent_id": "85.52"
+    },
+    {
+      "id": "85.522",
+      "name": "Other cultural education",
+      "parent_id": "85.52"
+    },
+    {
+      "id": "85.591",
+      "name": "Labour market training",
+      "parent_id": "85.59"
+    },
+    {
+      "id": "85.592",
+      "name": "Folk high school education",
+      "parent_id": "85.59"
+    },
+    {
+      "id": "85.593",
+      "name": "Activities of adult education associations",
+      "parent_id": "85.59"
+    },
+    {
+      "id": "85.594",
+      "name": "Staff training",
+      "parent_id": "85.59"
+    },
+    {
+      "id": "85.599",
+      "name": "Various other education n.e.c.",
+      "parent_id": "85.59"
+    },
+    {
+      "id": "86.211",
+      "name": "General primary medical practice activities",
+      "parent_id": "86.21"
+    },
+    {
+      "id": "86.212",
+      "name": "Other general medical practice activities",
+      "parent_id": "86.21"
+    },
+    {
+      "id": "86.221",
+      "name": "Specialist medical practice activities, at hospitals",
+      "parent_id": "86.22"
+    },
+    {
+      "id": "86.222",
+      "name": "Specialist medical practice activities, not at hospitals",
+      "parent_id": "86.22"
+    },
+    {
+      "id": "88.991",
+      "name": "Social work activities for children and young people with social problems",
+      "parent_id": "88.99"
+    },
+    {
+      "id": "88.992",
+      "name": "Day-care activities for adults with substance abuse problems",
+      "parent_id": "88.99"
+    },
+    {
+      "id": "88.993",
+      "name": "Social work activities without accommodation for adults n.e.c.",
+      "parent_id": "88.99"
+    },
+    {
+      "id": "88.994",
+      "name": "Humanitarian relief activities",
+      "parent_id": "88.99"
+    },
+    {
+      "id": "88.995",
+      "name": "Operation of refugee camps",
+      "parent_id": "88.99"
+    },
+    {
+      "id": "93.111",
+      "name": "Operation of ski facilities",
+      "parent_id": "93.11"
+    },
+    {
+      "id": "93.112",
+      "name": "Operation of golf courses",
+      "parent_id": "93.11"
+    },
+    {
+      "id": "93.113",
+      "name": "Operation of motor racing tracks",
+      "parent_id": "93.11"
+    },
+    {
+      "id": "93.114",
+      "name": "Operation of horse race tracks",
+      "parent_id": "93.11"
+    },
+    {
+      "id": "93.119",
+      "name": "Operation of arenas, stadiums and other sports facilities",
+      "parent_id": "93.11"
+    },
+    {
+      "id": "93.191",
+      "name": "Horse racing activities",
+      "parent_id": "93.19"
+    },
+    {
+      "id": "93.199",
+      "name": "Other sports activities n.e.c.",
+      "parent_id": "93.19"
+    },
+    {
+      "id": "94.111",
+      "name": "Activities of business membership organisations",
+      "parent_id": "94.11"
+    },
+    {
+      "id": "94.112",
+      "name": "Activities of employers membership organisations",
+      "parent_id": "94.11"
+    }
+  ]
+}
